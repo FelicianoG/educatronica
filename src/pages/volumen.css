@@ -1,0 +1,241 @@
+.green{
+    --color: rgb(158 227 29);
+   
+}
+.hovergreen:hover{
+    --color: rgb(158 227 29);
+}
+
+.orange{
+    --color: rgb(245 135 10);
+}
+.hoverorange:hover{
+    --color: rgb(245 135 10);
+}
+
+.blue{
+    --color: rgb(0 188 205);
+}
+.hoverblue:hover{
+    --color: rgb(0 188 205);
+}
+
+
+@media (min-width: 800px) { /* PC */
+#volume-container{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    text-align: center;
+}
+.alt-nav{
+    display: none;
+}
+#volume-container h1{
+    font-size:6rem;
+    color:black;
+    padding:0;
+    margin: 0;
+    top:0;
+    left: 0;
+}
+#volume-container h2{
+    font-size: x-large;
+    font-weight: 900;
+    color:black;
+    
+}
+#volume-container h3{
+    font-size: large;
+    color: var(--color);
+}
+#volume-container h4{
+    font-size: large;
+    margin-top: 40px;
+}
+.cuadros-stack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:530px;
+    height: 60vw;
+    min-height: 500px;
+    max-height: 400px;
+    margin: 50px 0 50px 0;
+}
+.cuadro-row{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cuadro-item{
+    background-color: var(--color);
+    border-radius: 20px;
+    width: 15vw;
+    width: 45%;
+    height: 90%;
+    display: flex;
+    padding:0;
+    margin:0;
+    flex-direction: column-reverse;
+}
+.cuadro-item p{
+    color:white;
+}
+.volume-footer{
+    background-color: var(--color);
+    padding: 50px 0 80px 0;
+    width: 100%;
+}
+.volume-footer button{
+    background-color: black;
+    border-style: none;
+    color:var(--color);
+    padding:20px 60px;
+    margin: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.volume-footer button:last-child{
+    padding:10px 30px; 
+}
+#volume-container .side-nav{
+    font-size: 40px;
+    color: rgb(151, 151, 151);
+    top:90px;
+    left:2vw;
+    border-style: none none solid none;
+    border-color:var(--color);
+    border-width: 12px;
+    padding: 0 0 20px 0;
+}
+.title-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+}
+
+@media (max-width: 800px) { /* Smartphone */
+#volume-container{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    text-align: center;
+}
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.alt-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top:120px;
+    position: absolute;
+}
+.alt-nav-sides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    
+    background-color: var(--color);
+    width:10%;
+    height: 80px;
+
+
+}
+#volume-container h1{
+    font-size:3rem;
+    color:black;
+    padding:0;
+    margin: 0;
+    top:0;
+    left: 0;
+}
+#volume-container h2{
+    font-size: x-large;
+    font-weight: 900;
+    color:black;
+    
+}
+#volume-container h3{
+    font-size: large;
+    color: var(--color);
+}
+#volume-container h4{
+    font-size: large;
+    padding: 0 10%;
+    line-height: 150%;
+    margin-top: 40px;
+}
+.cuadros-stack{
+    display: flex;
+    flex-direction: column;
+    width:530px;
+    height: 1000px;
+    min-height: 500px;
+    max-height: 1000px;
+    margin: 50px 0 50px 0;
+}
+.cuadro-row{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cuadro-item{
+    background-color: var(--color);
+    border-radius: 20px;
+    width: 45%;
+    height: 80%;
+    display: flex;
+    padding:0;
+    margin:10px;
+    flex-direction: column-reverse;
+}
+.cuadro-item p{
+    color:white;
+}
+.volume-footer{
+    background-color: var(--color);
+    padding: 50px 0 80px 0;
+    width: 100%;
+}
+.volume-footer button{
+    background-color: black;
+    border-style: none;
+    color:var(--color);
+    padding:20px 60px;
+    margin: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.volume-footer button:last-child{
+    padding:10px 30px; 
+}
+#volume-container .side-nav{
+    display: none;
+    font-size: 40px;
+    color: rgb(151, 151, 151);
+    top:90px;
+    left:2vw;
+    border-style: none none solid none;
+    border-color:var(--color);
+    border-width: 12px;
+    padding: 0 0 20px 0;
+}
+}
