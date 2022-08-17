@@ -9,6 +9,7 @@ import Module from './components/Module'
 const moduleVolumeOne = [
     {
         title:'Modulo 1',
+        subtitle:'Conociendo las disciplinas que forman parte de la robótica',
         meses: [
             {
                 mes:'Septiembre',
@@ -35,19 +36,19 @@ const moduleVolumeOne = [
                 mes:'Octubre',
                 objetos:[
                     {
-                        texto:'Componentes electrónicos parte 1',
+                        texto:'Componentes electrónicos 1',
                         recursos:[{tipo:'Presentación',url:''}]
                     },
                     {
-                        texto:'Componentes electrónicos parte 2',
+                        texto:'Componentes electrónicos 2',
                         recursos:[{tipo:'Presentación',url:''}]
                     },
                     {
-                        texto:'Plataforma Scratch para Arduino parte 1',
+                        texto:'Plataforma Scratch para Arduino 1',
                         recursos:[{tipo:'Presentación',url:''}]
                     },
                     {
-                        texto:'Plataforma Scratch para Arduino parte 2',
+                        texto:'Plataforma Scratch para Arduino 2',
                         recursos:[{tipo:'Presentación',url:''}]
                     },
                 ]
@@ -77,6 +78,7 @@ const moduleVolumeOne = [
     },
     {
         title:'Modulo 2',
+        subtitle:'Descubrir y explorar más sobre Educatrónica',
         meses: [
             {
                 mes:'Diciembre',
@@ -145,6 +147,7 @@ const moduleVolumeOne = [
     },
     {
         title:'Modulo 3',
+        subtitle:'Armando ideas',
         meses: [
             {
                 mes:'Marzo',
@@ -180,6 +183,381 @@ const moduleVolumeOne = [
     }
 ]
 
+const moduleVolumeTwo = [
+    {
+        title:'Modulo 1',
+        subtitle:'Conociendo la relación de las disciplinas que forman parte de la robótica',
+        meses: [
+            {
+                mes:'Septiembre',
+                objetos:[
+                    {
+                        texto:'Introducción general 1',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Introducción general 2',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Elementos de la robótica',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Componentes electrónicos 1',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Octubre',
+                objetos:[
+                    {
+                        texto:'Componentes electrónicos 2',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Plataforma Scratch para Arduino 1',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Plataforma Scratch para Arduino 2',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 1 - LED',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Noviembre',
+                objetos:[
+                    {
+                        texto:'Práctica 2 - Bocina',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Proyecto 1 - Camión escolar',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                    {
+                        texto:'Práctica 3 - RGB',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Proyecto 2 - Plano',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                ]
+            }
+        ], 
+    },
+    {
+        title:'Modulo 2',
+        subtitle:'Descubrir y explorar más sobre Educatrónica',
+        meses: [
+            {
+                mes:'Diciembre',
+                objetos:[
+                    {
+                        texto:'Práctica 4 - Sensor touch',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 5 - Servomotor',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Proyecto 3 - Aire acondicionado',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                    {
+                        texto:'Práctica 6 - Potenciómetro',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Enero',
+                objetos:[
+                    {
+                        texto:'Práctica 7 - Servomotor',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Proyecto 4 - Robot',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                    {
+                        texto:'Práctica 8 - Joystick',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Proyecto 5 - Beisbol',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Febrero',
+                objetos:[
+                    {
+                        texto:'Práctica 9 - Sensor infrarrojo',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Proyecto 6 - Puerta de acceso',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                    {
+                        texto:'Práctica 10 - Sensor de presencia',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 11 - Display de 7 segmentos',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                ]
+            }
+        ], 
+    },
+    {
+        title:'Modulo 3',
+        subtitle:'Armando ideas',
+        meses: [
+            {
+                mes:'Marzo',
+                objetos:[
+                    {
+                        texto:'Práctica 11 - Sensor de lluvia',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                    {
+                        texto:'Proyecto 7 - puerta de mascota',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 12 - Sensor de temperatura',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Proyecto 8 - Congelador',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Abril',
+                objetos:[
+                    {
+                        texto:'Competencia',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    }
+                ]
+            }
+        ], 
+    }
+]
+
+const moduleVolumeThree = [
+    {
+        title:'Modulo 1',
+        subtitle:'Conociendo la relación de las disciplinas que forman parte de la robótica',
+        meses: [
+            {
+                mes:'Septiembre',
+                objetos:[
+                    {
+                        texto:'Introducción general',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Electricidad',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Electrónica',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Introducción a la programación escrita 1',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Octubre',
+                objetos:[
+                    {
+                        texto:'Introducción a la programación escrita 2',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Introducción a las variables y tipos de datos',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Introducción a los operadores',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Introducción a las estructuras de control',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Noviembre',
+                objetos:[
+                    {
+                        texto:'Introducción a las funciones',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Introducción a las librearías',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                    {
+                        texto:'Tendencias de la robótica',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Componentes electrónicos 1',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                ]
+            }
+        ], 
+    },
+    {
+        title:'Modulo 2',
+        subtitle:'Descubrir y explorar más sobre Educatrónica',
+        meses: [
+            {
+                mes:'Diciembre',
+                objetos:[
+                    {
+                        texto:'Componentes electrónicos 2',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Plataforma Arduino IDE',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 1 – LED',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                    {
+                        texto:'Práctica 2 – LED',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Enero',
+                objetos:[
+                    {
+                        texto:'Práctica 3 – LED',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 4 – LED',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                    {
+                        texto:'Práctica 5 – LED',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 6 – Zumbador',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Febrero',
+                objetos:[
+                    {
+                        texto:'Práctica 7 – Servomotor',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 8 – Servomotor',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                    {
+                        texto:'Práctica 9 – Motor',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 10 – Sensor de luz',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                ]
+            }
+        ], 
+    },
+    {
+        title:'Modulo 3',
+        subtitle:'Armando ideas',
+        meses: [
+            {
+                mes:'Marzo',
+                objetos:[
+                    {
+                        texto:'Práctica 11 – Sensor de distancia',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                    {
+                        texto:'Práctica 12 – Sensor de lluvia',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 13 – Potenciómetro',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 14 – Servomotor',
+                        recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Abril',
+                objetos:[
+                    {
+                        texto:'Práctica 15 – Sensor de presencia',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 16 – Motorreductor',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Práctica 17 – Motorreductor',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                    {
+                        texto:'Proyecto carro seguidor de línea',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    },
+                ]
+            },
+            {
+                mes:'Mayo',
+                objetos:[
+                    {
+                        texto:'Competencia',
+                        recursos:[{tipo:'Presentación',url:''}]
+                    }
+                ]
+            }
+        ], 
+    }
+]
+
 
 export default function Modulo({inicial}) {
     const navigate = useNavigate();
@@ -196,14 +574,14 @@ export default function Modulo({inicial}) {
     const [ selectedSection, setSelectedSection ] = useState('');
 
     const volumenes = [
-        {kit:{
+        {modulo:moduleVolumeOne,kit:{
             titulo:'Kit de educatronica',
             mensaje:'Haz click aqui para descargar el kit de educatronica',
             link: context.semaforoPDFURL
 
         }, bgcolor: 'rgba(158,227,29,.3)', color:'green', nextColor:'hoverorange',prevColor:'hoverblue', titulo:'VOLUMEN I', anterior:'VOLUMEN III', siguiente:'VOLUMEN II' ,grado:'1o'},
-        {bgcolor:'rgba(245,135,10,.2)',color:'orange', nextColor:'hoverblue',prevColor:'hovergreen', titulo:'VOLUMEN II', anterior:'VOLUMEN I', siguiente:'VOLUMEN III' ,grado:'2o'},
-        {bgcolor:'rgba(0,188,205,.2)',color:'blue', nextColor:'hovergreen',prevColor:'hoverorange', titulo:'VOLUMEN III', anterior:'VOLUMEN II', siguiente:'VOLUMEN I' ,grado:'3o'}
+        {modulo:moduleVolumeTwo,bgcolor:'rgba(245,135,10,.2)',color:'orange', nextColor:'hoverblue',prevColor:'hovergreen', titulo:'VOLUMEN II', anterior:'VOLUMEN I', siguiente:'VOLUMEN III' ,grado:'2o'},
+        {modulo:moduleVolumeThree,bgcolor:'rgba(0,188,205,.2)',color:'blue', nextColor:'hovergreen',prevColor:'hoverorange', titulo:'VOLUMEN III', anterior:'VOLUMEN II', siguiente:'VOLUMEN I' ,grado:'3o'}
 ]
     const [volumen, setVolumen] = useState(volumenes[(params.id)-1])
     const [id, setId] = useState(parseFloat(params.id))
@@ -238,6 +616,8 @@ export default function Modulo({inicial}) {
                 <h1 className={`side-nav ${volumenes[id-1].nextColor}`} onClick={()=>{handleNavigate( id, 'forward')}}>{volumen.siguiente}</h1>
             </div>
             
+            <Module info={volumenes[id-1].modulo[0]}/>
+
             <Module info={moduleVolumeOne[0]}/>
             <Module info={moduleVolumeOne[1]}/>
             <Module info={moduleVolumeOne[2]}/>
