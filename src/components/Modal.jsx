@@ -5,38 +5,29 @@ import { db } from '../firebase.js';
 import { collection, addDoc, doc, getDocs, getDoc } from "firebase/firestore";
 import { semaforo } from '../firestore/download-links'
 
-export default function Modal({color, handleClose, content}) {
+export default function Modal({ color, handleClose, content, section }) {
 
-async function handleTest(){  
+    async function handleTest(){  
 
-//   await addDoc(collection(db, "item"), {   //add document to collection
-//     first: "Ada",
-//     last: "Lovelace",
-//     born: 1815
-//   });
+    //add document to collection
+    //   await addDoc(collection(db, "item"), {  
+    //     first: "Ada",
+    //     last: "Lovelace",
+    //     born: 1815
+    //   });
 
+    //get documents from collection
+    // const querySnapshot = await getDocs(collection(db, "item"));
+    // querySnapshot.forEach((doc) => {
+    //   console.log(`${doc.id} => ${doc.data().name}`);
+    // });
 
-
-//get documents from collection
-// const querySnapshot = await getDocs(collection(db, "item"));
-// querySnapshot.forEach((doc) => {
-//   console.log(`${doc.id} => ${doc.data().name}`);
-// });
-
-//getOne
-const docRef = doc(db, "item", "6TDA9TGMHkIle0URa1Ec");
-const docSnap = await getDoc(docRef);
-console.log(docSnap.data().name)
-setDownloadURL(docSnap.data().name)
-
+    //getOne
+        // const docRef = doc(db, "item", "6TDA9TGMHkIle0URa1Ec");
+        // const docSnap = await getDoc(docRef);
+        // console.log(docSnap.data().name)
+        // setDownloadURL(docSnap.data().name)
     }
-
-    const [downloadURL, setDownloadURL] = useState('default')
-    const context = useContext(myContext)
-
-   useEffect(()=>{
-    setDownloadURL(context.semaforoPDFURL)
-   },[context])
     
     color = color.split('')
     color.splice((color.length - 4),3)
@@ -79,25 +70,19 @@ setDownloadURL(docSnap.data().name)
         textDecoration:'none',
     }
 
-    const contexto = useContext(context)
-
-  return ReactDOM.createPortal(
-    <>
-        <div style={OVERLAY_STYLES} onClick={()=>{handleClose()}}>
-            <div style={MODAL_STYLES} onClick={ e => e.stopPropagation()}>
-                <h1 style={{color:color,fontSize: 'calc( .5vw + 20px)'}}>This is a {content.color} portal</h1>
-                <h2>This color is dynamic: {content.color}</h2>
-                <h2>this is {'contexto'}</h2>
-                <h3>I fetched this: {downloadURL}</h3>
-                <a href={semaforo} style={BUTTON_STYLES} download={semaforo}>DESCARGA</a>
-                
+    return ReactDOM.createPortal(
+        <>
+            <div style={OVERLAY_STYLES} onClick={()=>{handleClose()}}>
+                <div style={MODAL_STYLES} onClick={ e => e.stopPropagation()}>
+                    <h1 style={{color:color,fontSize: 'calc( .5vw + 20px)'}}>{content[section].titulo}</h1>
+                    <h2>{content[section].mensaje}</h2>
+                    <a href={content[section].link}  download={content[section].link} style={BUTTON_STYLES}>DESCARGA</a>
+                    
+                </div>
             </div>
-        </div>
-
-        
-    </>
-    ,
-    document.getElementById('portal')
+        </>
+        ,
+        document.getElementById('portal')
     )
   
 }

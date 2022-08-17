@@ -1,10 +1,10 @@
 import React from 'react'
-import './App.css';
-import icono1 from './images/icono1.svg'
-import icono2 from './images/icono2.svg'
-import icono3 from './images/icono3.svg'
-import cuadros1 from './images/CuadrosIzq.svg'
-import cuadros2 from './images/CuadrosDer.svg'
+import '../App.css';
+import icono1 from '../images/icono1.svg'
+import icono2 from '../images/icono2.svg'
+import icono3 from '../images/icono3.svg'
+import cuadros1 from '../images/CuadrosIzq.svg'
+import cuadros2 from '../images/CuadrosDer.svg'
 import { useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 
