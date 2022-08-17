@@ -6,14 +6,26 @@
     padding: 0;
     font-size: 16px;
   }
+  a, a:visited {
+    text-decoration: none;
+    color: black
+  }
   :root {
     padding: 0;
     margin: 0;
+  }
+  .logo-bg-main{
+    width:50%;
+    position: absolute;
+    top:50vw;
+    left:-200px;  z-index: -2;
+    min-width: 500px;
   }
   .main-page-header {
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 40px;
+  
     box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.5);
     margin: auto;
     z-index: 2;
@@ -191,6 +203,11 @@
     justify-content: center;
   }
 
+  a, a:visited {
+    text-decoration: none;
+    color: black
+  }
+
   .cuadros-container {
     display: flex;
     justify-content: space-between;
@@ -312,6 +329,10 @@
   }
   .main-page-footer {
     height: 100px;
+  }
+  .logo-bg-main{
+    display: none;
+
   }
 }
 .cuadritos img {
