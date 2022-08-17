@@ -1,34 +1,7 @@
 import ReactDOM from 'react-dom'
-import myContext from '../context/store.js'
-import React, { useState, useContext, useEffect } from 'react'
-import { db } from '../firebase.js';
-import { collection, addDoc, doc, getDocs, getDoc } from "firebase/firestore";
-import { semaforo } from '../firestore/download-links'
 
 export default function Modal({ color, handleClose, content, section }) {
 
-    async function handleTest(){  
-
-    //add document to collection
-    //   await addDoc(collection(db, "item"), {  
-    //     first: "Ada",
-    //     last: "Lovelace",
-    //     born: 1815
-    //   });
-
-    //get documents from collection
-    // const querySnapshot = await getDocs(collection(db, "item"));
-    // querySnapshot.forEach((doc) => {
-    //   console.log(`${doc.id} => ${doc.data().name}`);
-    // });
-
-    //getOne
-        // const docRef = doc(db, "item", "6TDA9TGMHkIle0URa1Ec");
-        // const docSnap = await getDoc(docRef);
-        // console.log(docSnap.data().name)
-        // setDownloadURL(docSnap.data().name)
-    }
-    
     color = color.split('')
     color.splice((color.length - 4),3)
     color.splice((3),1)

@@ -1,0 +1,501 @@
+Educatrónica 1
+
+Módulos
+
+Modulo I: Conociendo las disciplinas que forman parte de la robótica.
+
+Septiembre
+
+Introducción general
+
+Presentación
+
+Introducción a la electricidad
+
+Presentación
+
+Introducción a la electrónica
+
+Presentación
+
+Introducción a la programación
+
+Presentación
+
+Octubre
+
+Componentes electrónicos parte 1
+
+Presentación
+
+Componentes electrónicos parte 2
+
+Presentación
+
+Plataforma Scratch para Arduino parte 1
+
+Presentación
+
+Plataforma Scratch para Arduino parte 2
+
+Presentación
+
+Noviembre
+
+Práctica 1 – LED
+
+Presentación
+
+Práctica 2 – LED
+
+Presentación
+
+Práctica 3 – LED
+
+Presentación
+
+Práctica 4 – LED
+
+Presentación
+
+Modulo II: Descubrir y explorar más sobre Educatrónica.
+
+Diciembre
+
+Práctica 5 – LED
+
+Presentación
+
+Proyecto 1 – Semáforo
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Práctica 6 – Zumbador
+
+Presentación
+
+Proyecto 2 – Carro policía
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Enero
+
+Práctica 7 – Motor
+
+Presentación
+
+Proyecto 3 – Helicóptero
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Práctica 8 – Servomotor
+
+Presentación
+
+Proyecto 4 – Futbol
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Febrero
+
+Práctica 9 – Sensor de luz
+
+Presentación
+
+Proyecto 5 – Alumbrado público
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Práctica 10 – Sensor de distancia
+
+Presentación
+
+Proyecto 6 – Pluma de estacionamiento
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Modulo III: Armando ideas.
+
+Marzo
+
+Práctica 11 – Sensor de lluvia
+
+Presentación
+
+Proyecto 7 – puerta de mascota
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Práctica 12 – Sensor de temperatura
+
+Presentación
+
+Proyecto 8 – Congelador
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Abril
+
+Competencia
+
+Educatrónica 2
+
+Módulos
+
+Modulo I: Conociendo la relación de las disciplinas que forman parte de la robótica.
+
+Septiembre
+
+Introducción general parte 1
+
+Presentación
+
+Introducción general parte 2
+
+Presentación
+
+Elementos de la robótica
+
+Presentación
+
+Componentes electrónicos parte 1
+
+Presentación
+
+Octubre
+
+Componentes electrónicos parte 2
+
+Presentación
+
+Plataforma Scratch para Arduino parte 1
+
+Presentación
+
+Plataforma Scratch para Arduino parte 2
+
+Presentación
+
+Práctica 1 – LED
+
+Presentación
+
+Noviembre
+
+Práctica 2 – Bocina
+
+Presentación
+
+Proyecto 1 – Camión escolar
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Práctica 3 – RGB
+
+Presentación
+
+Proyecto 2 – Piano
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Modulo II: Descubrir y explorar más sobre Educatrónica.
+
+Diciembre
+
+Práctica 4 – Sensor touch
+
+Presentación
+
+Práctica 5 – Servomotor
+
+Presentación
+
+Proyecto 3 – Aire acondicionado
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Práctica 6 – Potenciómetro
+
+Presentación
+
+Enero
+
+Práctica 7 – Servomotor
+
+Presentación
+
+Proyecto 4 – Robot
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Práctica 8 – Joystick
+
+Presentación
+
+Proyecto 5 – Beisbol
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Febrero
+
+Práctica 9 – Sensor infrarrojo
+
+Presentación
+
+Proyecto 6 – Puerta de acceso
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Práctica 10 – Sensor de presencia
+
+Presentación
+
+Práctica 11 – Display de 7 segmentos
+
+Presentación
+
+Modulo III: Armando ideas.
+
+Marzo
+
+Proyecto 7 – Contador de productos
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Práctica 12 – Sensor de luz
+
+Presentación
+
+Práctica 13 – Servomotor
+
+Presentación
+
+Proyecto 8 – Panel solar
+
+Presentación
+
+Videotutorial del armado
+
+Hoja de medidas
+
+Abril
+
+Competencia
+
+Educatrónica 3
+
+Módulos
+
+Modulo I: Conociendo la relación de las disciplinas que forman parte de la robótica.
+
+Septiembre
+
+Introducción general
+
+Presentación
+
+Electricidad
+
+Presentación
+
+Electrónica
+
+Presentación
+
+Introducción a la programación escrita parte 1
+
+Presentación
+
+Octubre
+
+Introducción a la programación escrita parte 2
+
+Presentación
+
+Introducción a las variables y tipos de datos
+
+Presentación
+
+Introducción a los operadores
+
+Presentación
+
+Introducción a las estructuras de control
+
+Presentación
+
+Noviembre
+
+Introducción a las funciones
+
+Presentación
+
+Introducción a las librearías
+
+Presentación
+
+Tendencias de la robótica
+
+Presentación
+
+Componentes electrónicos parte 1
+
+Presentación
+
+Modulo II: Descubrir y explorar más sobre Educatrónica.
+
+Diciembre
+
+Componentes electrónicos parte 2
+
+Presentación
+
+Plataforma Arduino IDE
+
+Presentación
+
+Práctica 1 – LED
+
+Presentación
+
+Práctica 2 – LED
+
+Presentación
+
+Enero
+
+Práctica 3 – LED
+
+Presentación
+
+Práctica 4 – LED
+
+Presentación
+
+Práctica 5 – LED
+
+Presentación
+
+Práctica 6 – Zumbador
+
+Presentación
+
+Febrero
+
+Práctica 7 – Servomotor
+
+Presentación
+
+Práctica 8 – Servomotor
+
+Presentación
+
+Práctica 9 – Motor
+
+Presentación
+
+Práctica 10 – Sensor de luz
+
+Presentación
+
+Modulo III: Armando ideas.
+
+Marzo
+
+Práctica 11 – Sensor de distancia
+
+Presentación
+
+Práctica 12 – Sensor de lluvia
+
+Presentación
+
+Práctica 13 – Potenciómetro
+
+Presentación
+
+Práctica 14 – Servomotor
+
+Presentación
+
+Abril
+
+Práctica 15 – Sensor de presencia
+
+Presentación
+
+Práctica 16 – Motorreductor
+
+Presentación
+
+Práctica 17 – Motorreductor
+
+Presentación
+
+Proyecto carro seguidor de línea
+
+Presentación
+
+Mayo
+
+Competencia

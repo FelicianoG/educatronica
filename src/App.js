@@ -3,8 +3,9 @@ import './index.css';
 import Home from './pages/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Volumen from './pages/Volumen'
+import Modulo from './pages/module-page/ModulePage'
 import myContext from './context/store.js'
-import { useState, useEffect, useContext } from 'react'
+import { useContext } from 'react'
 
 export default function App() {
     
@@ -17,7 +18,10 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={ <Home/> } />
                     <Route path="/volumenes" element={ <Volumen/> }>
-                    <Route path=":id" element={ <Volumen/> } />
+                        <Route path=":id" element={ <Volumen/> } />
+                    </Route>
+                    <Route path="/modulos" element={ <Modulo/> }>
+                        <Route path=":id" element={ <Modulo/> } />
                     </Route>
                 </Routes>
             </BrowserRouter>
