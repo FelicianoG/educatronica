@@ -601,7 +601,7 @@ export default function Modulo({inicial}) {
 
     return (
     <div className='App'>
-        <header className="main-page-header"></header>
+        {/* <header className="main-page-header"></header> */}
         <main id='module-container' className={volumen.color}>
             <div className='module-title-container'>
                 <div className='module-alt-nav'>

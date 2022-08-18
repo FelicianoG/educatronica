@@ -26,7 +26,9 @@
 
   @media (min-width: 800px) {
     /* PC */
-  
+    button a{
+        
+    }
     .logo-bg{
         position:absolute;
         z-index: -2;
@@ -115,9 +117,10 @@
       }
     .cuadro-item p, .cuadro-item-lg p {
       color: white;
+      padding-bottom:10px;
     }
     .cuadro-item img{
-        width:70%;
+        width:50%;
         position: relative;
         top:10px;
         margin:auto;

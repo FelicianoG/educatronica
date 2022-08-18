@@ -17,7 +17,7 @@
   .logo-bg-main{
     width:50%;
     position: absolute;
-    top:50vw;
+    top:35vw;
     left:-200px;  z-index: -2;
     min-width: 500px;
   }
@@ -338,7 +338,7 @@
 .cuadritos img {
   width: 60%;
 }
-.cuadro {
+.cuadro { 
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -14,7 +14,7 @@ useEffect(() => window.scrollTo(0, 0),[])
 
   return (
     <div className="app">
-      <header className="main-page-header"></header>
+      {/* <header className="main-page-header"></header> */}
       <main className='main-page-container'>
         <h1>EDUCATRÓNICA</h1>
         <div className='cuadros-container'>

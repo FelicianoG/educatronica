@@ -28,12 +28,12 @@ export default function Volumen({inicial}) {
             kit:{
                 titulo:'Kit de educatronica',
                 mensaje:'Haz click aqui para descargar el kit de educatronica',
-                link: context.semaforoPDFURL
+                link: context.volumeThreeURLS.kit
             },
             instalacion:{
                 titulo:'Instalación y configuración',
                 mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
-                link: context.semaforoPDFURL
+                link: context.volumeThreeURLS.instalacion
             },
             libro:{
                 titulo:'Libro de trabajo',
@@ -43,7 +43,7 @@ export default function Volumen({inicial}) {
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
                 mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
-                link: context.semaforoPDFURL
+                link: context.volumeThreeURLS.evaluacion
             },
             bgcolor: 'rgba(158,227,29,.3)', 
             color:'green', 
@@ -58,12 +58,12 @@ export default function Volumen({inicial}) {
             kit:{
                 titulo:'Kit de educatronica',
                 mensaje:'Haz click aqui para descargar el kit de educatronica',
-                link: context.semaforoPDFURL
+                link: context.volumeTwoURLS.kit
             },
             instalacion:{
                 titulo:'Instalación y configuración',
                 mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
-                link: context.semaforoPDFURL
+                link: context.volumeTwoURLS.instalacion
             },
             libro:{
                 titulo:'Libro de trabajo',
@@ -73,7 +73,7 @@ export default function Volumen({inicial}) {
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
                 mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
-                link: context.semaforoPDFURL
+                link: context.volumeTwoURLS.evaluacion
             },
             bgcolor:'rgba(245,135,10,.2)',
             color:'orange', 
@@ -88,12 +88,12 @@ export default function Volumen({inicial}) {
             kit:{
                 titulo:'Kit de educatronica',
                 mensaje:'Haz click aqui para descargar el kit de educatronica',
-                link: context.semaforoPDFURL
+                link: context.volumeOneURLS.kit
             },
             instalacion:{
                 titulo:'Instalación y configuración',
                 mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
-                link: context.semaforoPDFURL
+                link: context.volumeOneURLS.instalacion
             },
             libro:{
                 titulo:'Libro de trabajo',
@@ -103,7 +103,7 @@ export default function Volumen({inicial}) {
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
                 mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
-                link: context.semaforoPDFURL
+                link: context.volumeOneURLS.evaluacion
             },
             bgcolor:'rgba(0,188,205,.2)',
             color:'blue', 
@@ -136,7 +136,7 @@ export default function Volumen({inicial}) {
 
     return (
     <div className='App'>
-        <header className="main-page-header"></header>
+        {/* <header className="main-page-header"></header> */}
         <main id='volume-container' className={volumen.color}>
             <h3>{volumen.grado} Grado - Educación Secundaria</h3>
             <div className='title-container'>
