@@ -1,6 +1,8 @@
 import ReactDOM from 'react-dom'
 
-export default function Modal({ color, handleClose, content, section }) {
+export default function Modal({ handleClose, content, section }) {
+
+    let color = content.bgcolor
 
     color = color.split('')
     color.splice((color.length - 4),3)

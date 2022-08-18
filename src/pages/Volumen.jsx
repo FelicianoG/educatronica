@@ -23,14 +23,96 @@ export default function Volumen({inicial}) {
     const [ selectedSection, setSelectedSection ] = useState('');
 
     const volumenes = [
-        {kit:{
-            titulo:'Kit de educatronica',
-            mensaje:'Haz click aqui para descargar el kit de educatronica',
-            link: context.semaforoPDFURL
-
-        }, bgcolor: 'rgba(158,227,29,.3)', color:'green', nextColor:'hoverorange',prevColor:'hoverblue', titulo:'VOLUMEN I', anterior:'VOLUMEN III', siguiente:'VOLUMEN II' ,grado:'1o'},
-        {bgcolor:'rgba(245,135,10,.2)',color:'orange', nextColor:'hoverblue',prevColor:'hovergreen', titulo:'VOLUMEN II', anterior:'VOLUMEN I', siguiente:'VOLUMEN III' ,grado:'2o'},
-        {bgcolor:'rgba(0,188,205,.2)',color:'blue', nextColor:'hovergreen',prevColor:'hoverorange', titulo:'VOLUMEN III', anterior:'VOLUMEN II', siguiente:'VOLUMEN I' ,grado:'3o'}
+        {
+            kit:{
+                titulo:'Kit de educatronica',
+                mensaje:'Haz click aqui para descargar el kit de educatronica',
+                link: context.semaforoPDFURL
+            },
+            instalacion:{
+                titulo:'Instalación y configuración',
+                mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
+                link: context.semaforoPDFURL
+            },
+            libro:{
+                titulo:'Libro de trabajo',
+                mensaje:'Haz click aqui para descargar el libro de trabajo',
+                link: context.semaforoPDFURL
+            },
+            evaluacion:{
+                titulo:'Evaluación diagnóstica',
+                mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
+                link: context.semaforoPDFURL
+            },
+            bgcolor: 'rgba(158,227,29,.3)', 
+            color:'green', 
+            nextColor:'hoverorange',
+            prevColor:'hoverblue', 
+            titulo:'VOLUMEN I', 
+            anterior:'VOLUMEN III', 
+            siguiente:'VOLUMEN II' ,
+            grado:'1o'
+        },
+        {
+            kit:{
+                titulo:'Kit de educatronica',
+                mensaje:'Haz click aqui para descargar el kit de educatronica',
+                link: context.semaforoPDFURL
+            },
+            instalacion:{
+                titulo:'Instalación y configuración',
+                mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
+                link: context.semaforoPDFURL
+            },
+            libro:{
+                titulo:'Libro de trabajo',
+                mensaje:'Haz click aqui para descargar el libro de trabajo',
+                link: context.semaforoPDFURL
+            },
+            evaluacion:{
+                titulo:'Evaluación diagnóstica',
+                mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
+                link: context.semaforoPDFURL
+            },
+            bgcolor:'rgba(245,135,10,.2)',
+            color:'orange', 
+            nextColor:'hoverblue',
+            prevColor:'hovergreen', 
+            titulo:'VOLUMEN II', 
+            anterior:'VOLUMEN I', 
+            siguiente:'VOLUMEN III' ,
+            grado:'2o'
+        },
+        {
+            kit:{
+                titulo:'Kit de educatronica',
+                mensaje:'Haz click aqui para descargar el kit de educatronica',
+                link: context.semaforoPDFURL
+            },
+            instalacion:{
+                titulo:'Instalación y configuración',
+                mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
+                link: context.semaforoPDFURL
+            },
+            libro:{
+                titulo:'Libro de trabajo',
+                mensaje:'Haz click aqui para descargar el libro de trabajo',
+                link: context.semaforoPDFURL
+            },
+            evaluacion:{
+                titulo:'Evaluación diagnóstica',
+                mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
+                link: context.semaforoPDFURL
+            },
+            bgcolor:'rgba(0,188,205,.2)',
+            color:'blue', 
+            nextColor:'hovergreen',
+            prevColor:'hoverorange', 
+            titulo:'VOLUMEN III', 
+            anterior:'VOLUMEN II', 
+            siguiente:'VOLUMEN I' ,
+            grado:'3o'
+        }
 ]
     const [volumen, setVolumen] = useState(volumenes[(params.id)-1])
     const [id, setId] = useState(parseFloat(params.id))
@@ -73,17 +155,17 @@ export default function Volumen({inicial}) {
                     <img src={icono1} alt="construction icon" />
                         <p>Kit de Educatrónica</p>
                     </div>
-                    <div onClick={()=>{ handlePortal('kit') }} className='cuadro-item'>
+                    <div onClick={()=>{ handlePortal('instalacion') }} className='cuadro-item'>
                     <img src={icono2} alt="construction icon" />
                         <p>Instalación y configuración</p>
                     </div>
                 </div>
                 <div className='cuadro-row'>
-                <div onClick={()=>{ handlePortal('kit') }} className='cuadro-item'>
+                <div onClick={()=>{ handlePortal('libro') }} className='cuadro-item'>
                     <img src={icono3} alt="construction icon" />
                         <p>Libro de Trabajo</p>
                     </div>
-                    <div onClick={()=>{ handlePortal('kit') }} className='cuadro-item'>
+                    <div onClick={()=>{ handlePortal('evaluacion') }} className='cuadro-item'>
                     <img src={icono4} alt="construction icon" />
                         <p>Evacuación diagnóstica</p>
                     </div>
@@ -99,7 +181,7 @@ export default function Volumen({inicial}) {
                 <button onClick={() => navigate('/')}>Volver al inicio</button>
             </footer>
         </main>
-        {portal && <Modal section={selectedSection} content={volumenes[id-1]} color={volumenes[id-1].bgcolor} handleClose={handleClosePortal}/>}
+        {portal && <Modal section={selectedSection} content={volumenes[id-1]} handleClose={handleClosePortal}/>}
     </div>
   )
 }
