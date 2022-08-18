@@ -26,9 +26,7 @@
 
   @media (min-width: 800px) {
     /* PC */
-    button a{
-        
-    }
+  
     .logo-bg{
         position:absolute;
         z-index: -2;
@@ -97,6 +95,7 @@
       padding: 0;
       margin: 0;
       flex-direction: column;
+      transition: all .2s;
     }
     .cuadro-item-lg {
         background-color: var(--color);
@@ -104,15 +103,15 @@
         width: 93%;
         height: 90%;
         display: flex;
-        justify-content: center;
+        justify-content: center; 
         padding: 0;
         margin: 20px 0 0 0;
         flex-direction: column;
+        transition: all .2s;
       }
 
     .cuadro-item:hover , .cuadro-item-lg:hover{
-        transform: translateX(5px) translateY(-5px) scale(1.02);
-        box-shadow: -3px 3px 4px rgb(228, 228, 228);
+        transform:  scale(1.08);
       }
     .cuadro-item p, .cuadro-item-lg p {
       color: white;
@@ -145,7 +144,12 @@
       border-radius: 50px;
       font-size: 15px;
       width: 170px;
+      transition: all .2s;
     }
+    .volume-footer button:hover{
+      background-color: rgb(255, 255, 255);
+    }
+
     .volume-footer button:last-child {
       padding: 10px 30px;
     }

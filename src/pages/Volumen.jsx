@@ -7,6 +7,7 @@ import icono1 from '../images/icono_material-01.svg'
 import icono2 from '../images/icono_material-02.svg'
 import icono3 from '../images/icono_material-03.svg'
 import icono4 from '../images/icono_material-04.svg'
+import icono5 from '../images/icono_material-05.svg'
 import Modal from '../components/Modal'
 
 export default function Volumen({inicial}) {
@@ -172,9 +173,9 @@ export default function Volumen({inicial}) {
                 </div>
                 <div className='cuadro-row'>
                     <div onClick={()=>{ navigate(`/modulos/${id}`) }} className='cuadro-item-lg'>
-                    <img src={icono1} alt="construction icon" />
+                    <img src={icono5} alt="construction icon" />
                         <p>Presentaciones de clase</p>
-                    </div>
+                    </div> 
                 </div>
             </section>
             <footer className='volume-footer'>

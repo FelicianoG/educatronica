@@ -7,9 +7,9 @@ export default function ModuleItem({ mes }) {
         <p className='title'>{mes.mes}</p>
         <ul>
             {mes.objetos.map((obj)=>{
-                return <div>
+                return <div key={uuid()}>
                     <li key={uuid()}>{obj.texto}</li>
-                    {obj.recursos.map((o)=>{return <a style={{display:'block'}} href='/' className='secondary-list' key={uuid()}>{o.tipo}</a>})}
+                    {obj.recursos.map((o)=>{return <a style={{display:'block'}} href={o.url} target="_blank" rel='noreferrer' className='secondary-list' key={uuid()}>{o.tipo}</a>})}
                 </div>})}
         </ul>
     </div>

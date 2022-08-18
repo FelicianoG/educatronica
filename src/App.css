@@ -344,11 +344,11 @@
   justify-content: center;
   align-items: center;
   color: white;
+  transition: all .2s;
 }
 .cuadro:hover,
 .main-page button:hover {
-  transform: translateX(5px) translateY(-5px) scale(1.02);
-  box-shadow: -3px 3px 4px rgb(228, 228, 228);
+  transform:  scale(1.08);
 }
 h2 {
   padding: 0;
