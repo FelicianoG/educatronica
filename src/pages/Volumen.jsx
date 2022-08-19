@@ -28,12 +28,12 @@ export default function Volumen({inicial}) {
             kit:{
                 titulo:'Kit de educatronica',
                 mensaje:'Haz click aqui para descargar el kit de educatronica',
-                link: context.volumeThreeURLS.kit
+                link: context.volumeOneURLS.kit
             },
             instalacion:{
                 titulo:'Instalación y configuración',
                 mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
-                link: context.volumeThreeURLS.instalacion
+                link: context.volumeOneURLS.instalacion
             },
             libro:{
                 titulo:'Libro de trabajo',
@@ -43,7 +43,7 @@ export default function Volumen({inicial}) {
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
                 mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
-                link: context.volumeThreeURLS.evaluacion
+                link: context.volumeOneURLS.evaluacion
             },
             bgcolor: 'rgba(158,227,29,.3)', 
             color:'green', 
@@ -88,12 +88,12 @@ export default function Volumen({inicial}) {
             kit:{
                 titulo:'Kit de educatronica',
                 mensaje:'Haz click aqui para descargar el kit de educatronica',
-                link: context.volumeOneURLS.kit
+                link: context.volumeThreeURLS.kit
             },
             instalacion:{
                 titulo:'Instalación y configuración',
                 mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
-                link: context.volumeOneURLS.instalacion
+                link: context.volumeThreeURLS.instalacion
             },
             libro:{
                 titulo:'Libro de trabajo',
@@ -103,7 +103,7 @@ export default function Volumen({inicial}) {
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
                 mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
-                link: context.volumeOneURLS.evaluacion
+                link: context.volumeThreeURLS.evaluacion
             },
             bgcolor:'rgba(0,188,205,.2)',
             color:'blue', 
