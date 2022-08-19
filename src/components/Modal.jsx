@@ -49,8 +49,8 @@ export default function Modal({ handleClose, content, section }) {
         <>
             <div style={OVERLAY_STYLES} onClick={()=>{handleClose()}}>
                 <div style={MODAL_STYLES} onClick={ e => e.stopPropagation()}>
-                    <h1 style={{color:color,fontSize: 'calc( .5vw + 20px)'}}>{content[section].titulo}</h1>
-                    <h2>{content[section].mensaje}</h2>
+                    <h1 style={{textAlign:'center', color:color,fontSize: 'calc( .5vw + 20px)', padding:'0 20px'}}>{content[section].titulo}</h1>
+                    <h2 style={{padding:'0 30px', textAlign:'center'}}>{content[section].mensaje}</h2>
                     <a href={content[section].link} target="_blank" rel='noreferrer' download={content[section].link} style={BUTTON_STYLES}>DESCARGA</a>
                     
                 </div>

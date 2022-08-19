@@ -140,7 +140,7 @@ export default function Volumen({inicial}) {
         <main id='volume-container' className={volumen.color}>
             <h3>{volumen.grado} Grado - Educación Secundaria</h3>
             <div className='title-container'>
-                <div className='alt-nav'>
+                <div className='alt-nav'> 
                     <div className={`alt-nav-sides ${volumenes[id-1].prevColor}`} onClick={()=>{handleNavigate( id, 'back' )}} >{'<'}</div>
                     <div className={`alt-nav-sides ${volumenes[id-1].nextColor}`} onClick={()=>{handleNavigate( id, 'forward' )}}>{'>'}</div>
                 </div>

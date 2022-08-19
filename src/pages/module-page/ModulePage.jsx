@@ -606,7 +606,7 @@ export default function Modulo({inicial}) {
         {/* <header className="main-page-header"></header> */}
         <main id='module-container' className={volumen.color}>
             <div className='module-title-container'>
-                <div className='module-alt-nav'>
+                <div className='module-alt-nav'> 
                     <div className={`module-alt-nav-sides ${volumenes[id-1].prevColor}`} onClick={()=>{handleNavigate( id, 'back' )}} >{'<'}</div>
                     <div className={`module-alt-nav-sides ${volumenes[id-1].nextColor}`} onClick={()=>{handleNavigate( id, 'forward' )}}>{'>'}</div>
                 </div>
