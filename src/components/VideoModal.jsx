@@ -1,7 +1,10 @@
 import ReactDOM from 'react-dom'
+import useWindowWidth from '../hooks/useWindowWidth'
 
 export default function Modal({ handleClose, content, videoURL }) {
-
+    
+    const width = useWindowWidth();
+    
     let color = content.bgcolor
 
     color = color.split('')
@@ -11,44 +14,39 @@ export default function Modal({ handleClose, content, videoURL }) {
 
     const OVERLAY_STYLES = {
         position: 'fixed',
+        padding:'20px 0',
         top:0,
         bottop:0,
         left:0,
         right:0,
-        backgroundColor:'rgba(255,255,255,.9)',
+        backgroundColor:'rgba(0,0,0,.8)',
         zIndex:4,
         width:'100%',
         height:'100%',
         display:'flex',
         justifyContent: 'center',
-        alignItems:'center'
+        alignItems:'center',
     }
     const MODAL_STYLES = {
-        backgroundColor:'black',
-        width:'70%',
+        
+        width: width > 1050 ? '70%' : '100%',
         minHeight:'500px',
-        border:'solid black 2px',
         color: 'white',
         display:'flex',
         flexDirection:'column',
         justifyContent: 'center',
-        alignItems:'center',
-        boxShadow: '-5px 5px 5px #bbb',  
-    }
-    const BUTTON_STYLES = {
-        backgroundColor: color,
-        border: 'none',
-        padding:'10px 20px',
-        borderRadius: '20px',
-        margin: '30px',
-        textDecoration:'none',
+        alignItems:'center', 
+        backgroundColor:'black'
     }
 
     return ReactDOM.createPortal(
         <>
             <div style={OVERLAY_STYLES} onClick={()=>{handleClose()}}>
                 <div style={MODAL_STYLES} onClick={ e => e.stopPropagation()}>
-                <iframe width="672" height="378" src={videoURL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {width < 1050 ? 
+                <iframe width={width} height={width / 1.33} src={videoURL} title="Video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> : 
+                <iframe width="672" height="378" src={videoURL} title="Video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                }
                 </div>
             </div>
         </>

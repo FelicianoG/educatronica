@@ -16,7 +16,7 @@ export default function ModuleItem({ mes, setPortal, setVideoURL }) {
                 return <div key={uuid()}>
                     <li key={uuid()}>{obj.texto}</li>
                     {obj.recursos.map((o)=>{
-                      if(o.tipo === 'Videotutorial del armado'){return <h5 onClick={() => handleVideoModal("https://www.youtube.com/embed/dQw4w9WgXcQ")} className='secondary-list' key={uuid()}>{o.tipo}</h5>}
+                      if(o.tipo === 'Videotutorial del armado'){return <h5 onClick={() => handleVideoModal("https://www.youtube.com/embed/vGgfLwMyaXw")} className='secondary-list' key={uuid()}>{o.tipo}</h5>}
                       return <a style={{display:'block'}} href={o.url} target="_blank" rel='noreferrer' className='secondary-list' key={uuid()}>{o.tipo}</a>})}
                 </div>})}
         </ul>

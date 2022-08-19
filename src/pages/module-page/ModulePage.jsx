@@ -3,7 +3,6 @@ import './modulePage.css'
 import { useState, useEffect, useContext } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import contextStore from '../../context/store'
-import Modal from '../../components/Modal'
 import Module from './components/Module'
 import VideoModal from '../../components/VideoModal'
 
