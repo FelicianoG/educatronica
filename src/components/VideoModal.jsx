@@ -30,6 +30,7 @@ export default function Modal({ handleClose, content, videoURL }) {
     const MODAL_STYLES = {
         
         width: width > 1050 ? '70%' : '100%',
+        maxWidth: '800px',
         minHeight:'500px',
         color: 'white',
         display:'flex',
