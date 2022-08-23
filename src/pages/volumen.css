@@ -1,23 +1,16 @@
-.green {
-    --color: rgb(158 227 29);
-  }
-  .hovergreen:hover {
-    --color: rgb(158 227 29);
+
+.green, .hovergreen:hover {
+    --color:var(--color-one);
   }
   
-  .orange {
-    --color: rgb(245 135 10);
-  }
-  .hoverorange:hover {
-    --color: rgb(245 135 10);
+  .orange, .hoverorange:hover {
+    --color: var(--color-two);
   }
   
-  .blue {
-    --color: rgb(0 188 205);
+  .blue, .hoverblue:hover {
+    --color: var(--color-three);
   }
-  .hoverblue:hover {
-    --color: rgb(0 188 205);
-  }
+
   .App {
     width: 100%;
     overflow: hidden;

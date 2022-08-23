@@ -9,7 +9,7 @@ export default function Module({info, setPortal, setVideoURL}) {
         <h3>{info.subtitle}</h3>
         <section className='module-cuadros-stack'>
             <div className='module-cuadro-row'>
-                {info.meses.map((mes)=>{return <ModuleItem key={ uuid() } mes={ mes } setPortal={setPortal} setVideoURL={setVideoURL}/>})}
+              {info.meses.map((mes)=>{return <ModuleItem key={ uuid() } mes={ mes } setPortal={setPortal} setVideoURL={setVideoURL}/>})}
             </div>
         </section>
     </div>

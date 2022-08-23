@@ -1,3 +1,9 @@
+body{
+  --color-one: rgb(134, 194, 24);
+  --color-two: rgb(245 135 10);
+  --color-three:rgb(195, 205, 0);
+}
+
 @media (min-width: 800px) {
   /* PC */
   body,
@@ -134,19 +140,19 @@
   .cuadritos .a {
     width: 15vw;
     height: 12vw;
-    background-color: rgb(158 227 29);
+    background-color: var(--color-one);
     border-radius: 12px;
   }
   .cuadritos .b {
     width: 15vw;
     height: 12vw;
-    background-color: rgb(245 135 10);
+    background-color: var(--color-two);
     border-radius: 12px;
   }
   .cuadritos .c {
     width: 15vw;
     height: 12vw;
-    background-color: rgb(0, 188, 205);
+    background-color: var(--color-three);
     border-radius: 12px;
   }
   .main-page button {
@@ -300,19 +306,19 @@
   .cuadritos .a {
     width: 40vw;
     height: 32vw;
-    background-color: rgb(158 227 29);
+    background-color: var(--color-one);
     border-radius: 12px;
   }
   .cuadritos .b {
     width: 40vw;
     height: 32vw;
-    background-color: rgb(245 135 10);
+    background-color: var(--color-two);
     border-radius: 12px;
   }
   .cuadritos .c {
     width: 40vw;
     height: 32vw;
-    background-color: rgb(0, 188, 205);
+    background-color: var(--color-three);
     border-radius: 12px;
   }
   .main-page button {
