@@ -7,6 +7,7 @@ import Login from './pages/Login'
 import Modulo from './pages/module-page/ModulePage'
 import myContext from './context/store.js'
 import { useContext } from 'react'
+import PDFViewer from './pages/PDFViewer';
 
 export default function App() {
     
@@ -18,6 +19,7 @@ export default function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={ <Home/> } />
+                    <Route path="/pdf" element={ <PDFViewer/> }></Route>
                     <Route path="/volumenes" element={ <Volumen/> }>
                         <Route path=":id" element={ <Volumen/> } />
                     </Route>

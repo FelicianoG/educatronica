@@ -45,7 +45,7 @@ export default function Volumen({inicial}) {
                 mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
                 link: context.volumeOneURLS.evaluacion
             },
-            bgcolor: 'rgba(158,227,29,.3)', 
+            bgcolor: context.bgColors.one, 
             color:'green', 
             nextColor:'hoverorange',
             prevColor:'hoverblue', 
@@ -75,7 +75,7 @@ export default function Volumen({inicial}) {
                 mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
                 link: context.volumeTwoURLS.evaluacion
             },
-            bgcolor:'rgba(245,135,10,.2)',
+            bgcolor: context.bgColors.two,
             color:'orange', 
             nextColor:'hoverblue',
             prevColor:'hovergreen', 
@@ -105,7 +105,7 @@ export default function Volumen({inicial}) {
                 mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
                 link: context.volumeThreeURLS.evaluacion
             },
-            bgcolor:'rgba(0,188,205,.2)',
+            bgcolor: context.bgColors.three,
             color:'blue', 
             nextColor:'hovergreen',
             prevColor:'hoverorange', 

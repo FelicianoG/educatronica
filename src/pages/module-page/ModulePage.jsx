@@ -25,7 +25,7 @@ export default function Modulo({inicial}) {
                         },
                         {
                             texto:'Introducción a la electricidad',
-                            recursos:[{tipo:'Presentación',url:''}]
+                            recursos:[{tipo:'Presentación',url:'/volumenes'}]
                         },
                         {
                             texto:'Introducción a la electrónica',
@@ -577,9 +577,9 @@ export default function Modulo({inicial}) {
             mensaje:'Haz click aqui para descargar el kit de educatronica',
             link: context.semaforoPDFURL
 
-        }, bgcolor: 'rgba(158,227,29,.3)', color:'green', nextColor:'hoverorange',prevColor:'hoverblue', titulo:'VOLUMEN I', anterior:'VOLUMEN III', siguiente:'VOLUMEN II' ,grado:'1o'},
-        {modulo:moduleVolumeTwo,bgcolor:'rgba(245,135,10,.2)',color:'orange', nextColor:'hoverblue',prevColor:'hovergreen', titulo:'VOLUMEN II', anterior:'VOLUMEN I', siguiente:'VOLUMEN III' ,grado:'2o'},
-        {modulo:moduleVolumeThree,bgcolor:'rgba(0,188,205,.2)',color:'blue', nextColor:'hovergreen',prevColor:'hoverorange', titulo:'VOLUMEN III', anterior:'VOLUMEN II', siguiente:'VOLUMEN I' ,grado:'3o'}
+        }, bgcolor: context.bgColors.one, color:'green', nextColor:'hoverorange',prevColor:'hoverblue', titulo:'VOLUMEN I', anterior:'VOLUMEN III', siguiente:'VOLUMEN II' ,grado:'1o'},
+        {modulo:moduleVolumeTwo,bgcolor:context.bgColors.two,color:'orange', nextColor:'hoverblue',prevColor:'hovergreen', titulo:'VOLUMEN II', anterior:'VOLUMEN I', siguiente:'VOLUMEN III' ,grado:'2o'},
+        {modulo:moduleVolumeThree,bgcolor:context.bgColors.three,color:'blue', nextColor:'hovergreen',prevColor:'hoverorange', titulo:'VOLUMEN III', anterior:'VOLUMEN II', siguiente:'VOLUMEN I' ,grado:'3o'}
 ]
     const [volumen, setVolumen] = useState(volumenes[(params.id)-1])
     const [id, setId] = useState(parseFloat(params.id))
@@ -595,10 +595,10 @@ export default function Modulo({inicial}) {
         setId(nextId)
         setVolumen(volumenes[ nextId-1 ])
     }
-    function handlePortal(target){
-        setSelectedSection(target)
-        setPortal(true)
-    }
+    // function handlePortal(target){
+    //     setSelectedSection(target)
+    //     setPortal(true)
+    // }
 
     return (
     <div className='App'>

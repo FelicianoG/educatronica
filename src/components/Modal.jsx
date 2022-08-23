@@ -44,15 +44,34 @@ export default function Modal({ handleClose, content, section }) {
         margin: '30px',
         textDecoration:'none',
     }
+    const CLOSE_STYLES = {
+        fontSize:'1.5rem',
+        fontWeight:'900',
+        backgroundColor:'white',
+        color:'black',
+        padding:'8px 15px',
+        borderRadius:'15px',
+        cursor:'pointer',
+        position:'absolute',
+        top:'275px'
+    }
+    const CLOSE_CONTAINER = {
+        display:'flex',
+        justifyContent:'flex-end',
+        width:'100%',
+        marginRight:'60px'
+    }
 
     return ReactDOM.createPortal(
         <>
             <div style={OVERLAY_STYLES} onClick={()=>{handleClose()}}>
                 <div style={MODAL_STYLES} onClick={ e => e.stopPropagation()}>
+                    <div style={CLOSE_CONTAINER}>
+                        <p style={CLOSE_STYLES}onClick={()=>{handleClose()}}>x</p>
+                    </div>
                     <h1 style={{textAlign:'center', color:color,fontSize: 'calc( .5vw + 20px)', padding:'0 20px'}}>{content[section].titulo}</h1>
                     <h2 style={{padding:'0 30px', textAlign:'center'}}>{content[section].mensaje}</h2>
                     <a href={content[section].link} target="_blank" rel='noreferrer' download={content[section].link} style={BUTTON_STYLES}>DESCARGA</a>
-                    
                 </div>
             </div>
         </>
