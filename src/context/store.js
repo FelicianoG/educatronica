@@ -108,7 +108,7 @@ const myContext = createContext({
                         },
                         {
                             texto:'Proyecto 1 - Semáforo',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:'https://www.youtube.com/embed/qPNu5rBS-3o'},{tipo:'Hoja de medidas',url:''}]
                         },
                         {
                             texto:'Práctica 6 - Zumbador',
@@ -116,7 +116,7 @@ const myContext = createContext({
                         },
                         {
                             texto:'Proyecto 2 - Carro policía',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:'https://www.youtube.com/embed/1FueBFvBiRg'},{tipo:'Hoja de medidas',url:''}]
                         },
                     ]
                 },
@@ -129,7 +129,7 @@ const myContext = createContext({
                         },
                         {
                             texto:'Proyecto 3 - Helicóptero',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:'https://www.youtube.com/embed/HbMDiSxQkxc'},{tipo:'Hoja de medidas',url:''}]
                         },
                         {
                             texto:'Práctica 8 - Servomotor',
@@ -137,7 +137,7 @@ const myContext = createContext({
                         },
                         {
                             texto:'Proyecto 4 - Futbol',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:'https://www.youtube.com/embed/8JPgIUFn1Pk'},{tipo:'Hoja de medidas',url:''}]
                         },
                     ]
                 },
@@ -150,7 +150,7 @@ const myContext = createContext({
                         },
                         {
                             texto:'Proyecto 5 - Alumbrado público',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:'https://www.youtube.com/embed/wjWO5hIb4oo'},{tipo:'Hoja de medidas',url:''}]
                         },
                         {
                             texto:'Práctica 10 - Sensor de distancia',
@@ -158,7 +158,7 @@ const myContext = createContext({
                         },
                         {
                             texto:'Proyecto 6 - Pluma de estacionamiento',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:'https://www.youtube.com/embed/ToxIu1NLAj4'},{tipo:'Hoja de medidas',url:''}]
                         },
                     ]
                 }
@@ -172,20 +172,20 @@ const myContext = createContext({
                     mes:'Marzo',
                     objetos:[
                         {
-                            texto:'Práctica 11 – Sensor de lluvia',
+                            texto:'Práctica 11 - Sensor de lluvia',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Proyecto 7 – puerta de mascota',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            texto:'Proyecto 7 - puerta de mascota',
+                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:'https://www.youtube.com/embed/HKLZDDgk330'},{tipo:'Hoja de medidas',url:''}]
                         },
                         {
-                            texto:'Práctica 12 – Sensor de temperatura',
+                            texto:'Práctica 12 - Sensor de temperatura',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Proyecto 8 – Congelador',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            texto:'Proyecto 8 - Congelador',
+                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:'https://www.youtube.com/embed/1MLorgTr9qo'},{tipo:'Hoja de medidas',url:''}]
                         },
                     ]
                 },
@@ -257,15 +257,15 @@ const myContext = createContext({
                         },
                         {
                             texto:'Proyecto 1 - Camión escolar',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:'https://www.youtube.com/embed/jU6wmkU3x8U'},{tipo:'Hoja de medidas',url:''}]
                         },
                         {
                             texto:'Práctica 3 - RGB',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Proyecto 2 - Plano',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            texto:'Proyecto 2 - Piano',
+                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:'https://www.youtube.com/embed/DPvL-Rh65MQ'},{tipo:'Hoja de medidas',url:''}]
                         },
                     ]
                 }
@@ -432,8 +432,8 @@ const myContext = createContext({
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Introducción a las librearías',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            texto:'Introducción a las librerías',
+                            recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
                             texto:'Tendencias de la robótica',
@@ -441,7 +441,7 @@ const myContext = createContext({
                         },
                         {
                             texto:'Componentes electrónicos 1',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            recursos:[{tipo:'Presentación',url:''}]
                         },
                     ]
                 }
@@ -463,12 +463,12 @@ const myContext = createContext({
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Práctica 1 – LED',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            texto:'Práctica 1 - LED',
+                            recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Práctica 2 – LED',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            texto:'Práctica 2 - LED',
+                            recursos:[{tipo:'Presentación',url:''}]
                         },
                     ]
                 },
@@ -476,20 +476,20 @@ const myContext = createContext({
                     mes:'Enero',
                     objetos:[
                         {
-                            texto:'Práctica 3 – LED',
+                            texto:'Práctica 3 - LED',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Práctica 4 – LED',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
-                        },
-                        {
-                            texto:'Práctica 5 – LED',
+                            texto:'Práctica 4 - LED',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Práctica 6 – Zumbador',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            texto:'Práctica 5 - LED',
+                            recursos:[{tipo:'Presentación',url:''}]
+                        },
+                        {
+                            texto:'Práctica 6 - Zumbador',
+                            recursos:[{tipo:'Presentación',url:''}]
                         },
                     ]
                 },
@@ -497,19 +497,19 @@ const myContext = createContext({
                     mes:'Febrero',
                     objetos:[
                         {
-                            texto:'Práctica 7 – Servomotor',
+                            texto:'Práctica 7 - Servomotor',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Práctica 8 – Servomotor',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
-                        },
-                        {
-                            texto:'Práctica 9 – Motor',
+                            texto:'Práctica 8 - Servomotor',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Práctica 10 – Sensor de luz',
+                            texto:'Práctica 9 - Motor',
+                            recursos:[{tipo:'Presentación',url:''}]
+                        },
+                        {
+                            texto:'Práctica 10 - Sensor de luz',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                     ]
@@ -524,20 +524,20 @@ const myContext = createContext({
                     mes:'Marzo',
                     objetos:[
                         {
-                            texto:'Práctica 11 – Sensor de distancia',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
-                        },
-                        {
-                            texto:'Práctica 12 – Sensor de lluvia',
+                            texto:'Práctica 11 - Sensor de distancia',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Práctica 13 – Potenciómetro',
+                            texto:'Práctica 12 - Sensor de lluvia',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Práctica 14 – Servomotor',
-                            recursos:[{tipo:'Presentación',url:''},{tipo:'Videotutorial del armado',url:''},{tipo:'Hoja de medidas',url:''}]
+                            texto:'Práctica 13 - Potenciómetro',
+                            recursos:[{tipo:'Presentación',url:''}]
+                        },
+                        {
+                            texto:'Práctica 14 - Servomotor',
+                            recursos:[{tipo:'Presentación',url:''}]
                         },
                     ]
                 },
@@ -545,15 +545,15 @@ const myContext = createContext({
                     mes:'Abril',
                     objetos:[
                         {
-                            texto:'Práctica 15 – Sensor de presencia',
+                            texto:'Práctica 15 - Sensor de presencia',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Práctica 16 – Motorreductor',
+                            texto:'Práctica 16 - Motorreductor',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {
-                            texto:'Práctica 17 – Motorreductor',
+                            texto:'Práctica 17 - Motorreductor',
                             recursos:[{tipo:'Presentación',url:''}]
                         },
                         {

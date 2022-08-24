@@ -45,10 +45,9 @@ export default function Modal({ handleClose, content, section }) {
         textDecoration:'none',
     }
     const CLOSE_STYLES = {
-        fontSize:'1.5rem',
+        fontSize:'2rem',
         fontWeight:'900',
-        backgroundColor:'white',
-        color:'black',
+        color:'white',
         padding:'8px 15px',
         borderRadius:'15px',
         cursor:'pointer',
@@ -59,7 +58,9 @@ export default function Modal({ handleClose, content, section }) {
         display:'flex',
         justifyContent:'flex-end',
         width:'100%',
-        marginRight:'60px'
+        marginRight:'30px',
+        position:'relative',
+        top:'-360px'
     }
 
     return ReactDOM.createPortal(
