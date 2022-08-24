@@ -27,22 +27,22 @@ export default function Volumen({inicial}) {
         {
             kit:{
                 titulo:'Kit de educatronica',
-                mensaje:'Haz click aqui para descargar el kit de educatronica',
+                mensaje:'Haz click aquí para descargar el kit de Educatrónica',
                 link: context.volumeOneURLS.kit
             },
             instalacion:{
                 titulo:'Instalación y configuración',
-                mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
+                mensaje:'Haz click aquí para descargar el manual de instalación y configuración',
                 link: context.volumeOneURLS.instalacion
             },
             libro:{
                 titulo:'Libro de trabajo',
-                mensaje:'Haz click aqui para descargar el libro de trabajo',
+                mensaje:'Haz click aquí para descargar el libro de trabajo',
                 link: context.semaforoPDFURL
             },
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
-                mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
+                mensaje:'Haz click aquí para descargar el manual de evaluación diagnóstica',
                 link: context.volumeOneURLS.evaluacion
             },
             bgcolor: context.bgColors.one, 
@@ -57,22 +57,22 @@ export default function Volumen({inicial}) {
         {
             kit:{
                 titulo:'Kit de educatronica',
-                mensaje:'Haz click aqui para descargar el kit de educatronica',
+                mensaje:'Haz click aquí para descargar el kit de Educatrónica',
                 link: context.volumeTwoURLS.kit
             },
             instalacion:{
                 titulo:'Instalación y configuración',
-                mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
+                mensaje:'Haz click aquí para descargar el manual de instalación y configuración',
                 link: context.volumeTwoURLS.instalacion
             },
             libro:{
                 titulo:'Libro de trabajo',
-                mensaje:'Haz click aqui para descargar el libro de trabajo',
+                mensaje:'Haz click aquí para descargar el libro de trabajo',
                 link: context.semaforoPDFURL
             },
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
-                mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
+                mensaje:'Haz click aquí para descargar el manual de evaluación diagnóstica',
                 link: context.volumeTwoURLS.evaluacion
             },
             bgcolor: context.bgColors.two,
@@ -87,22 +87,22 @@ export default function Volumen({inicial}) {
         {
             kit:{
                 titulo:'Kit de educatronica',
-                mensaje:'Haz click aqui para descargar el kit de educatronica',
+                mensaje:'Haz click aquí para descargar el kit de Educatrónica',
                 link: context.volumeThreeURLS.kit
             },
             instalacion:{
                 titulo:'Instalación y configuración',
-                mensaje:'Haz click aqui para descargar el manual de instalación y configuración',
+                mensaje:'Haz click aquí para descargar el manual de instalación y configuración',
                 link: context.volumeThreeURLS.instalacion
             },
             libro:{
                 titulo:'Libro de trabajo',
-                mensaje:'Haz click aqui para descargar el libro de trabajo',
+                mensaje:'Haz click aquí para descargar el libro de trabajo',
                 link: context.semaforoPDFURL
             },
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
-                mensaje:'Haz click aqui para descargar el manual de evaluación diagnóstica',
+                mensaje:'Haz click aquí para descargar el manual de evaluación diagnóstica',
                 link: context.volumeThreeURLS.evaluacion
             },
             bgcolor: context.bgColors.three,

@@ -6,16 +6,23 @@ import Volumen from './pages/Volumen'
 import Login from './pages/Login'
 import Modulo from './pages/module-page/ModulePage'
 import myContext from './context/store.js'
-import { useContext } from 'react'
-import PDFViewer from './pages/PDFViewer';
+import { useEffect, useState } from 'react'
+import PDFViewer from './pages/PDFViewer'
+import json from './context/JSON.json'
+import axios from 'axios'
 
 export default function App() {
+
+    const [ testContext, setTestContext ] = useState(json)
+    useEffect(()=>{
+        axios.get('https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/JSON.json?alt=media&token=51f4b646-0ae1-47eb-a9a2-8e8be5bfc24a')
+        .then( data => { setTestContext(data.data) } ).catch( err => console.log(err))
+    },[])
     
-    const contexto = useContext(myContext)
-      
+
   return (
     <div>    
-        <myContext.Provider value={contexto}>
+        <myContext.Provider value={testContext}>
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={ <Home/> } />

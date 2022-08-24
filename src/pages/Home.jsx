@@ -21,13 +21,13 @@ useEffect(() => window.scrollTo(0, 0),[])
         <img id="cuadros-izquierda" src={cuadros1} alt="decoration" />
         <img id="cuadros-derecha" src={cuadros2} alt="decoration" />
         </div>
-        <p>Educatronica es un programa de la secretaria de Educacion y 
-          Cultura que consiste en una alternativa flexible y de facil acceso para que las escuelas de educacion secundaria puedan implementar la enseñanza de robotica basica mediante la asignatura de tecnologia</p>
+        <p>Educatrónica es un programa de la Secretaría de Educación y 
+          Cultura que consiste en una alternativa flexible y de fácil acceso para que las escuelas de educación secundaria puedan implementar la enseñanza de robótica básica mediante la asignatura de tecnología</p>
         <div className='white-line'></div>
         <div className='blue-line'></div>
       </main>
       <section className='main-page'>
-        <p>Su objetivo principal es contribuir para que los jovenes estudiantes desarrollen las competencias y habilidades que se requieren para afrontar los retos de la sociedad actual, a traves de la enseñanza de robotica basica en escuelas publicas de educacion secundaria en el estado de Sonora</p>
+        <p>Su objetivo principal es contribuir para que los jóvenes estudiantes desarrollen las competencias y habilidades que se requieren para afrontar los retos de la sociedad actual, a través de la enseñanza de robótica básica en escuelas públicas de educación secundaria en el Estado de Sonora</p>
         <div className='cuadritos'>
           <div onClick={()=>{navigate('/volumenes/1')}} className='cuadro a'><img src={icono1} alt="construction icon" /><h2>VOLUMEN I</h2></div>
           <div onClick={()=>{navigate('/volumenes/2')}} className='cuadro b'><img src={icono2} alt="conexion icon" /><h2>VOLUMEN II</h2></div>
