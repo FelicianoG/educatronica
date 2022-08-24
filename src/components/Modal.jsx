@@ -57,6 +57,7 @@ export default function Modal({ handleClose, content, section }) {
     const CLOSE_CONTAINER = {
         display:'flex',
         justifyContent:'flex-end',
+        alignItems:'center',
         width:'100%',
         marginRight:'30px',
         position:'relative',
