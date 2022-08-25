@@ -179,7 +179,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%201%2FHojas%20de%20medidas%2FHM-E1-P1-Sema%CC%81foro.pdf?alt=media&token=be18e57e-529f-471d-9ebd-29eea62efec0"
                   }
                 ]
               },
@@ -205,7 +205,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%201%2FHojas%20de%20medidas%2FHM-E1-P2-Carro%20polici%CC%81a.pdf?alt=media&token=2bbf8cca-bc7a-4a89-9b42-cadd04304401"
                   }
                 ]
               }
@@ -236,7 +236,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%201%2FHojas%20de%20medidas%2FHM-E1-P3-Helico%CC%81ptero.pdf?alt=media&token=0e4c2f08-3fcc-4526-a5ae-6fdde52debec"
                   }
                 ]
               },
@@ -262,7 +262,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%201%2FHojas%20de%20medidas%2FHM-E1-P4-Futbol.pdf?alt=media&token=9879bdf6-71a4-47a5-8640-35e809913041"
                   }
                 ]
               }
@@ -293,7 +293,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%201%2FHojas%20de%20medidas%2FHM-E1-P5-Alumbrado%20pu%CC%81blico.pdf?alt=media&token=d6553133-3f13-42d2-821d-e6658c095439"
                   }
                 ]
               },
@@ -319,7 +319,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%201%2FHojas%20de%20medidas%2FHM-E1-P6-Pluma%20de%20estacionamiento.pdf?alt=media&token=77d995bd-d2b0-486e-ada8-2c66c6c83299"
                   }
                 ]
               }
@@ -356,7 +356,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%201%2FHojas%20de%20medidas%2FHM-E1-P7-Puerta%20de%20mascota.pdf?alt=media&token=08267fee-2ae5-498f-a462-2e7ea991cdcd"
                   }
                 ]
               },
@@ -382,7 +382,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%201%2FHojas%20de%20medidas%2FHM-E1-P8-Congelador.pdf?alt=media&token=2f3c4cb2-8005-4e19-b85d-6469d9301f5a"
                   }
                 ]
               }
@@ -517,7 +517,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%202%2FHojas%20de%20medidas%2FHM-E2-P1-Camio%CC%81n%20escolar.pdf?alt=media&token=4d0bf5a6-3aa4-40f6-bd81-daf9245d4a2f"
                   }
                 ]
               },
@@ -543,7 +543,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%202%2FHojas%20de%20medidas%2FHM-E2-P2-Piano.pdf?alt=media&token=696b5e2b-be68-45a6-8af1-d3db3658b256"
                   }
                 ]
               }
@@ -589,7 +589,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%202%2FHojas%20de%20medidas%2FHM-E2-P3-Aire%20acondicionado.pdf?alt=media&token=7e60139e-8450-4376-addd-a34031e70b3a"
                   }
                 ]
               },
@@ -598,14 +598,6 @@
                 "recursos": [
                   {
                     "tipo": "Presentación",
-                    "url": ""
-                  },
-                  {
-                    "tipo": "Videotutorial del armado",
-                    "url": ""
-                  },
-                  {
-                    "tipo": "Hoja de medidas",
                     "url": ""
                   }
                 ]
@@ -637,7 +629,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%202%2FHojas%20de%20medidas%2FHM-E2-P4-Robot.pdf?alt=media&token=2f3d047d-88db-4083-b4ff-69a5a9c1966f"
                   }
                 ]
               },
@@ -663,7 +655,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%202%2FHojas%20de%20medidas%2FHM-E2-P5-Beisbol.pdf?alt=media&token=f0ca0fbd-6a68-4080-867e-e429866947ec"
                   }
                 ]
               }
@@ -694,7 +686,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%202%2FHojas%20de%20medidas%2FHM-E2-P6-Puerta%20de%20acceso.pdf?alt=media&token=1fa4ec83-6faf-471f-a90f-381bb4c5b204"
                   }
                 ]
               },
@@ -740,7 +732,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%202%2FHojas%20de%20medidas%2FHM-E2-P7-Contador%20de%20productos.pdf?alt=media&token=a80d5c2a-2a11-4532-88b5-003bbe193ffe"
                   }
                 ]
               },
@@ -775,7 +767,7 @@
                   },
                   {
                     "tipo": "Hoja de medidas",
-                    "url": ""
+                    "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%202%2FHojas%20de%20medidas%2FHM-E2-P8-Panel%20solar.pdf?alt=media&token=a8c70b2f-4cc0-45b3-9a1b-5416b42fc3a4"
                   }
                 ]
               }
