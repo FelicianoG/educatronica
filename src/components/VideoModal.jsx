@@ -39,11 +39,33 @@ export default function Modal({ handleClose, content, videoURL }) {
         alignItems:'center', 
         backgroundColor:'black'
     }
+    const CLOSE_STYLES = {
+        fontSize:'2rem',
+        fontWeight:'900',
+        color:'white',
+        padding:'8px 15px',
+        borderRadius:'15px',
+        cursor:'pointer',
+        position:'absolute',
+        top:'275px'
+    }
+    const CLOSE_CONTAINER = {
+        display:'flex',
+        justifyContent:'flex-end',
+        alignItems:'center',
+        width:'100%',
+        marginRight:'30px',
+        position:'relative',
+        top:'-360px'
+    }
 
     return ReactDOM.createPortal(
         <>
             <div style={OVERLAY_STYLES} onClick={()=>{handleClose()}}>
                 <div style={MODAL_STYLES} onClick={ e => e.stopPropagation()}>
+                <div style={CLOSE_CONTAINER}>
+                        <p style={CLOSE_STYLES}onClick={()=>{handleClose()}}>x</p>
+                </div>
                 {width < 1050 ? 
                 <iframe width={width} height={width / 1.33} src={videoURL} title="Video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> : 
                 <iframe width="672" height="378" src={videoURL} title="Video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
