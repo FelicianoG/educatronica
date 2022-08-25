@@ -1,501 +1,501 @@
 Educatrónica 1
 
-Módulos
+    Módulos
 
-Modulo I: Conociendo las disciplinas que forman parte de la robótica.
+    Modulo I: Conociendo las disciplinas que forman parte de la robótica.
 
-Septiembre
+        Septiembre
 
-Introducción general
+        Introducción general
 
-Presentación
+        Presentación
 
-Introducción a la electricidad
+        Introducción a la electricidad
 
-Presentación
+        Presentación
 
-Introducción a la electrónica
+        Introducción a la electrónica
 
-Presentación
+        Presentación
 
-Introducción a la programación
+        Introducción a la programación
 
-Presentación
+        Presentación
 
-Octubre
+        Octubre
 
-Componentes electrónicos parte 1
+        Componentes electrónicos parte 1
 
-Presentación
+        Presentación
 
-Componentes electrónicos parte 2
+        Componentes electrónicos parte 2
 
-Presentación
+        Presentación
 
-Plataforma Scratch para Arduino parte 1
+        Plataforma Scratch para Arduino parte 1
 
-Presentación
+        Presentación
 
-Plataforma Scratch para Arduino parte 2
+        Plataforma Scratch para Arduino parte 2
 
-Presentación
+        Presentación
 
-Noviembre
+        Noviembre
 
-Práctica 1 – LED
+        Práctica 1 – LED
 
-Presentación
+        Presentación
 
-Práctica 2 – LED
+        Práctica 2 – LED
 
-Presentación
+        Presentación
 
-Práctica 3 – LED
+        Práctica 3 – LED
 
-Presentación
+        Presentación
 
-Práctica 4 – LED
+        Práctica 4 – LED
 
-Presentación
+        Presentación
 
-Modulo II: Descubrir y explorar más sobre Educatrónica.
+    Modulo II: Descubrir y explorar más sobre Educatrónica.
 
-Diciembre
+        Diciembre
 
-Práctica 5 – LED
+        Práctica 5 – LED
 
-Presentación
+        Presentación
 
-Proyecto 1 – Semáforo
+        Proyecto 1 – Semáforo
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Práctica 6 – Zumbador
+        Práctica 6 – Zumbador
 
-Presentación
+        Presentación
 
-Proyecto 2 – Carro policía
+        Proyecto 2 – Carro policía
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Enero
+        Enero
 
-Práctica 7 – Motor
+        Práctica 7 – Motor
 
-Presentación
+        Presentación
 
-Proyecto 3 – Helicóptero
+        Proyecto 3 – Helicóptero
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Práctica 8 – Servomotor
+        Práctica 8 – Servomotor
 
-Presentación
+        Presentación
 
-Proyecto 4 – Futbol
+        Proyecto 4 – Futbol
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Febrero
+        Febrero
 
-Práctica 9 – Sensor de luz
+        Práctica 9 – Sensor de luz
 
-Presentación
+        Presentación
 
-Proyecto 5 – Alumbrado público
+        Proyecto 5 – Alumbrado público
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Práctica 10 – Sensor de distancia
+        Práctica 10 – Sensor de distancia
 
-Presentación
+        Presentación
 
-Proyecto 6 – Pluma de estacionamiento
+        Proyecto 6 – Pluma de estacionamiento
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Modulo III: Armando ideas.
+    Modulo III: Armando ideas.
 
-Marzo
+        Marzo
 
-Práctica 11 – Sensor de lluvia
+        Práctica 11 – Sensor de lluvia
 
-Presentación
+        Presentación
 
-Proyecto 7 – puerta de mascota
+        Proyecto 7 – puerta de mascota
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Práctica 12 – Sensor de temperatura
+        Práctica 12 – Sensor de temperatura
 
-Presentación
+        Presentación
 
-Proyecto 8 – Congelador
+        Proyecto 8 – Congelador
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Abril
+        Abril
 
-Competencia
+        Competencia
 
 Educatrónica 2
 
-Módulos
+    Módulos
 
-Modulo I: Conociendo la relación de las disciplinas que forman parte de la robótica.
+    Modulo I: Conociendo la relación de las disciplinas que forman parte de la robótica.
 
-Septiembre
+        Septiembre
 
-Introducción general parte 1
+        Introducción general parte 1
 
-Presentación
+        Presentación
 
-Introducción general parte 2
+        Introducción general parte 2
 
-Presentación
+        Presentación
 
-Elementos de la robótica
+        Elementos de la robótica
 
-Presentación
+        Presentación
 
-Componentes electrónicos parte 1
+        Componentes electrónicos parte 1
 
-Presentación
+        Presentación
 
-Octubre
+        Octubre
 
-Componentes electrónicos parte 2
+        Componentes electrónicos parte 2
 
-Presentación
+        Presentación
 
-Plataforma Scratch para Arduino parte 1
+        Plataforma Scratch para Arduino parte 1
 
-Presentación
+        Presentación
 
-Plataforma Scratch para Arduino parte 2
+        Plataforma Scratch para Arduino parte 2
 
-Presentación
+        Presentación
 
-Práctica 1 – LED
+        Práctica 1 – LED
 
-Presentación
+        Presentación
 
-Noviembre
+        Noviembre
 
-Práctica 2 – Bocina
+        Práctica 2 – Bocina
 
-Presentación
+        Presentación
 
-Proyecto 1 – Camión escolar
+        Proyecto 1 – Camión escolar
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Práctica 3 – RGB
+        Práctica 3 – RGB
 
-Presentación
+        Presentación
 
-Proyecto 2 – Piano
+        Proyecto 2 – Piano
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Modulo II: Descubrir y explorar más sobre Educatrónica.
+    Modulo II: Descubrir y explorar más sobre Educatrónica.
 
-Diciembre
+        Diciembre
 
-Práctica 4 – Sensor touch
+        Práctica 4 – Sensor touch
 
-Presentación
+        Presentación
 
-Práctica 5 – Servomotor
+        Práctica 5 – Servomotor
 
-Presentación
+        Presentación
 
-Proyecto 3 – Aire acondicionado
+        Proyecto 3 – Aire acondicionado
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Práctica 6 – Potenciómetro
+        Práctica 6 – Potenciómetro
 
-Presentación
+        Presentación
 
-Enero
+        Enero
 
-Práctica 7 – Servomotor
+        Práctica 7 – Servomotor
 
-Presentación
+        Presentación
 
-Proyecto 4 – Robot
+        Proyecto 4 – Robot
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Práctica 8 – Joystick
+        Práctica 8 – Joystick
 
-Presentación
+        Presentación
 
-Proyecto 5 – Beisbol
+        Proyecto 5 – Beisbol
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Febrero
+        Febrero
 
-Práctica 9 – Sensor infrarrojo
+        Práctica 9 – Sensor infrarrojo
 
-Presentación
+        Presentación
 
-Proyecto 6 – Puerta de acceso
+        Proyecto 6 – Puerta de acceso
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Práctica 10 – Sensor de presencia
+        Práctica 10 – Sensor de presencia
 
-Presentación
+        Presentación
 
-Práctica 11 – Display de 7 segmentos
+        Práctica 11 – Display de 7 segmentos
 
-Presentación
+        Presentación
 
-Modulo III: Armando ideas.
+    Modulo III: Armando ideas.
 
-Marzo
+        Marzo
 
-Proyecto 7 – Contador de productos
+        Proyecto 7 – Contador de productos
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Práctica 12 – Sensor de luz
+        Práctica 12 – Sensor de luz
 
-Presentación
+        Presentación
 
-Práctica 13 – Servomotor
+        Práctica 13 – Servomotor
 
-Presentación
+        Presentación
 
-Proyecto 8 – Panel solar
+        Proyecto 8 – Panel solar
 
-Presentación
+        Presentación
 
-Videotutorial del armado
+        Videotutorial del armado
 
-Hoja de medidas
+        Hoja de medidas
 
-Abril
+        Abril
 
-Competencia
+        Competencia
 
 Educatrónica 3
 
-Módulos
+    Módulos
 
-Modulo I: Conociendo la relación de las disciplinas que forman parte de la robótica.
+    Modulo I: Conociendo la relación de las disciplinas que forman parte de la robótica.
 
-Septiembre
+        Septiembre
 
-Introducción general
+        Introducción general
 
-Presentación
+        Presentación
 
-Electricidad
+        Electricidad
 
-Presentación
+        Presentación
 
-Electrónica
+        Electrónica
 
-Presentación
+        Presentación
 
-Introducción a la programación escrita parte 1
+        Introducción a la programación escrita parte 1
 
-Presentación
+        Presentación
 
-Octubre
+        Octubre
 
-Introducción a la programación escrita parte 2
+        Introducción a la programación escrita parte 2
 
-Presentación
+        Presentación
 
-Introducción a las variables y tipos de datos
+        Introducción a las variables y tipos de datos
 
-Presentación
+        Presentación
 
-Introducción a los operadores
+        Introducción a los operadores
 
-Presentación
+        Presentación
 
-Introducción a las estructuras de control
+        Introducción a las estructuras de control
 
-Presentación
+        Presentación
 
-Noviembre
+        Noviembre
 
-Introducción a las funciones
+        Introducción a las funciones
 
-Presentación
+        Presentación
 
-Introducción a las librearías
+        Introducción a las librerías
 
-Presentación
+        Presentación
 
-Tendencias de la robótica
+        Tendencias de la robótica
 
-Presentación
+        Presentación
 
-Componentes electrónicos parte 1
+        Componentes electrónicos parte 1
 
-Presentación
+        Presentación
 
-Modulo II: Descubrir y explorar más sobre Educatrónica.
+    Modulo II: Descubrir y explorar más sobre Educatrónica.
 
-Diciembre
+        Diciembre
 
-Componentes electrónicos parte 2
+        Componentes electrónicos parte 2
 
-Presentación
+        Presentación
 
-Plataforma Arduino IDE
+        Plataforma Arduino IDE
 
-Presentación
+        Presentación
 
-Práctica 1 – LED
+        Práctica 1 – LED
 
-Presentación
+        Presentación
 
-Práctica 2 – LED
+        Práctica 2 – LED
 
-Presentación
+        Presentación
 
-Enero
+        Enero
 
-Práctica 3 – LED
+        Práctica 3 – LED
 
-Presentación
+        Presentación
 
-Práctica 4 – LED
+        Práctica 4 – LED
 
-Presentación
+        Presentación
 
-Práctica 5 – LED
+        Práctica 5 – LED
 
-Presentación
+        Presentación
 
-Práctica 6 – Zumbador
+        Práctica 6 – Zumbador
 
-Presentación
+        Presentación
 
-Febrero
+        Febrero
 
-Práctica 7 – Servomotor
+        Práctica 7 – Servomotor
 
-Presentación
+        Presentación
 
-Práctica 8 – Servomotor
+        Práctica 8 – Servomotor
 
-Presentación
+        Presentación
 
-Práctica 9 – Motor
+        Práctica 9 – Motor
 
-Presentación
+        Presentación
 
-Práctica 10 – Sensor de luz
+        Práctica 10 – Sensor de luz
 
-Presentación
+        Presentación
 
-Modulo III: Armando ideas.
+    Modulo III: Armando ideas.
 
-Marzo
+        Marzo
 
-Práctica 11 – Sensor de distancia
+        Práctica 11 – Sensor de distancia
 
-Presentación
+        Presentación
 
-Práctica 12 – Sensor de lluvia
+        Práctica 12 – Sensor de lluvia
 
-Presentación
+        Presentación
 
-Práctica 13 – Potenciómetro
+        Práctica 13 – Potenciómetro
 
-Presentación
+        Presentación
 
-Práctica 14 – Servomotor
+        Práctica 14 – Servomotor
 
-Presentación
+        Presentación
 
-Abril
+        Abril
 
-Práctica 15 – Sensor de presencia
+        Práctica 15 – Sensor de presencia
 
-Presentación
+        Presentación
 
-Práctica 16 – Motorreductor
+        Práctica 16 – Motorreductor
 
-Presentación
+        Presentación
 
-Práctica 17 – Motorreductor
+        Práctica 17 – Motorreductor
 
-Presentación
+        Presentación
 
-Proyecto carro seguidor de línea
+        Proyecto carro seguidor de línea
 
-Presentación
+        Presentación
 
-Mayo
+        Mayo
 
-Competencia
+        Competencia

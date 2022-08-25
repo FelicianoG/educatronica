@@ -585,7 +585,7 @@
                   },
                   {
                     "tipo": "Videotutorial del armado",
-                    "url": ""
+                    "url": "https://www.youtube.com/embed/X-4xFaoClAw"
                   },
                   {
                     "tipo": "Hoja de medidas",
@@ -633,7 +633,7 @@
                   },
                   {
                     "tipo": "Videotutorial del armado",
-                    "url": ""
+                    "url": "https://www.youtube.com/embed/72FXendllv4"
                   },
                   {
                     "tipo": "Hoja de medidas",
@@ -659,7 +659,7 @@
                   },
                   {
                     "tipo": "Videotutorial del armado",
-                    "url": ""
+                    "url": "https://www.youtube.com/embed/NgbdQyFWiO4"
                   },
                   {
                     "tipo": "Hoja de medidas",
@@ -690,7 +690,7 @@
                   },
                   {
                     "tipo": "Videotutorial del armado",
-                    "url": ""
+                    "url": "https://www.youtube.com/embed/DyHtWuhddww"
                   },
                   {
                     "tipo": "Hoja de medidas",
@@ -728,7 +728,7 @@
             "mes": "Marzo",
             "objetos": [
               {
-                "texto": "Práctica 11 - Sensor de lluvia",
+                "texto": "Proyecto 7 - Contador de productos",
                 "recursos": [
                   {
                     "tipo": "Presentación",
@@ -736,7 +736,7 @@
                   },
                   {
                     "tipo": "Videotutorial del armado",
-                    "url": ""
+                    "url": "https://www.youtube.com/embed/9T6-easK-OU"
                   },
                   {
                     "tipo": "Hoja de medidas",
@@ -745,7 +745,7 @@
                 ]
               },
               {
-                "texto": "Proyecto 7 - puerta de mascota",
+                "texto": "Práctica 12 - Sensor de luz",
                 "recursos": [
                   {
                     "tipo": "Presentación",
@@ -754,7 +754,7 @@
                 ]
               },
               {
-                "texto": "Práctica 12 - Sensor de temperatura",
+                "texto": "Práctica 13 - Servomotor",
                 "recursos": [
                   {
                     "tipo": "Presentación",
@@ -763,7 +763,7 @@
                 ]
               },
               {
-                "texto": "Proyecto 8 - Congelador",
+                "texto": "Proyecto 8 - Panel solar",
                 "recursos": [
                   {
                     "tipo": "Presentación",
@@ -771,7 +771,7 @@
                   },
                   {
                     "tipo": "Videotutorial del armado",
-                    "url": ""
+                    "url": "https://www.youtube.com/embed/JKHAvdYJ8uE"
                   },
                   {
                     "tipo": "Hoja de medidas",
