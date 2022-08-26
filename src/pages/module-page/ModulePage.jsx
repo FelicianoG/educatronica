@@ -6,7 +6,7 @@ import contextStore from '../../context/store'
 import Module from './components/Module'
 import VideoModal from '../../components/VideoModal'
 
-export default function Modulo({inicial}) {
+export default function ModulePage({inicial}) {
     const navigate = useNavigate();
     const params = useParams();
     const context = useContext(contextStore);
