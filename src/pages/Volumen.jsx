@@ -38,7 +38,8 @@ export default function Volumen({inicial}) {
             libro:{
                 titulo:'Libro de trabajo',
                 mensaje:'Haz click aquí para descargar el libro de trabajo',
-                link: context.volumeOneURLS.nav
+                link: context.volumeOneURLS.nav,
+                url: context.volumeOneURLS.libroDescarga
             },
             evaluacion:{
                 titulo:'Evaluación diagnóstica',

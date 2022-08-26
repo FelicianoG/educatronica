@@ -76,7 +76,10 @@ export default function Modal({ handleClose, content, section }) {
                     <h1 style={{textAlign:'center', color:color,fontSize: 'calc( .5vw + 20px)', padding:'0 20px'}}>{content[section].titulo}</h1>
                     <h2 style={{padding:'0 30px', textAlign:'center'}}>{content[section].mensaje}</h2>
                     { content[section].titulo === 'Libro de trabajo' ? 
-                        <p onClick={()=>{navigate(content[section].link)}}style={{...BUTTON_STYLES, color:'black', cursor:'pointer'}}>DESCARGAR</p>
+                        <div>
+                            <p onClick={()=>{navigate(content[section].link)}}style={{...BUTTON_STYLES, textAlign:'center', color:'black', cursor:'pointer'}}>VER</p>
+                            <a href={content[section].url} target="_blank" rel='noreferrer' download={content[section].link} style={{...BUTTON_STYLES}}>DESCARGAR</a>
+                        </div>
                         :
                         <a href={content[section].link} target="_blank" rel='noreferrer' download={content[section].link} style={BUTTON_STYLES}>DESCARGAR</a>
                     }
