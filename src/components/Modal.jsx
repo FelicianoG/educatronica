@@ -1,7 +1,9 @@
 import ReactDOM from 'react-dom'
+import { useNavigate } from 'react-router-dom'
 
 export default function Modal({ handleClose, content, section }) {
 
+    const navigate = useNavigate()
     let color = content.bgcolor
 
     color = color.split('')
@@ -73,7 +75,11 @@ export default function Modal({ handleClose, content, section }) {
                     </div>
                     <h1 style={{textAlign:'center', color:color,fontSize: 'calc( .5vw + 20px)', padding:'0 20px'}}>{content[section].titulo}</h1>
                     <h2 style={{padding:'0 30px', textAlign:'center'}}>{content[section].mensaje}</h2>
-                    <a href={content[section].link} target="_blank" rel='noreferrer' download={content[section].link} style={BUTTON_STYLES}>DESCARGA</a>
+                    { content[section].titulo === 'Libro de trabajo' ? 
+                        <p onClick={()=>{navigate(content[section].link)}}style={{...BUTTON_STYLES, color:'black', cursor:'pointer'}}>DESCARGAR</p>
+                        :
+                        <a href={content[section].link} target="_blank" rel='noreferrer' download={content[section].link} style={BUTTON_STYLES}>DESCARGAR</a>
+                    }
                 </div>
             </div>
         </>

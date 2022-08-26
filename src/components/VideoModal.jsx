@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom'
 import useWindowWidth from '../hooks/useWindowWidth'
 
-export default function Modal({ handleClose, content, videoURL }) {
+export default function VideoModal({ handleClose, content, videoURL }) {
     
     const width = useWindowWidth();
     

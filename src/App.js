@@ -26,7 +26,9 @@ export default function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={ <Home/> } />
-                    <Route path="/pdf" element={ <PDFViewer/> }></Route>
+                    <Route path="/pdf" element={ <PDFViewer/> }>
+                    <Route path=":libro" element={ <Volumen/> } />
+                    </Route>
                     <Route path="/volumenes" element={ <Volumen/> }>
                         <Route path=":id" element={ <Volumen/> } />
                     </Route>

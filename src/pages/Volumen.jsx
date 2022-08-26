@@ -38,7 +38,7 @@ export default function Volumen({inicial}) {
             libro:{
                 titulo:'Libro de trabajo',
                 mensaje:'Haz click aquí para descargar el libro de trabajo',
-                link: context.semaforoPDFURL
+                link: context.volumeOneURLS.nav
             },
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
@@ -68,7 +68,7 @@ export default function Volumen({inicial}) {
             libro:{
                 titulo:'Libro de trabajo',
                 mensaje:'Haz click aquí para descargar el libro de trabajo',
-                link: context.semaforoPDFURL
+                link: context.volumeTwoURLS.nav
             },
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
@@ -98,7 +98,7 @@ export default function Volumen({inicial}) {
             libro:{
                 titulo:'Libro de trabajo',
                 mensaje:'Haz click aquí para descargar el libro de trabajo',
-                link: context.semaforoPDFURL
+                link: context.volumeThreeURLS.nav
             },
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
