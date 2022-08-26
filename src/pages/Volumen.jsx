@@ -69,7 +69,8 @@ export default function Volumen({inicial}) {
             libro:{
                 titulo:'Libro de trabajo',
                 mensaje:'Haz click aquí para descargar el libro de trabajo',
-                link: context.volumeTwoURLS.nav
+                link: context.volumeTwoURLS.nav,
+                url: context.volumeTwoURLS.libroDescarga
             },
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
@@ -99,7 +100,8 @@ export default function Volumen({inicial}) {
             libro:{
                 titulo:'Libro de trabajo',
                 mensaje:'Haz click aquí para descargar el libro de trabajo',
-                link: context.volumeThreeURLS.nav
+                link: context.volumeThreeURLS.nav,
+                url: context.volumeThreeURLS.libroDescarga
             },
             evaluacion:{
                 titulo:'Evaluación diagnóstica',
