@@ -184,7 +184,7 @@
                   },
                   {
                     "tipo": "Video del funcionamiento",
-                    "url": "https://www.youtube.com/embed/qPNu5rBS-3o"
+                    "url": ""
                   },
                   {
                     "tipo": "Videotutorial del armado",
@@ -301,6 +301,10 @@
                     "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%201%2FPresentaciones%2FE1-PO5-ALUMBRADO%20PU%CC%81BLICO.pptx?alt=media&token=3abb632b-2244-4d03-a4df-3079c645d886"
                   },
                   {
+                    "tipo": "Video del funcionamiento",
+                    "url": "https://www.youtube.com/embed/mf9Tq5IqtqU"
+                  },
+                  {
                     "tipo": "Videotutorial del armado",
                     "url": "https://www.youtube.com/embed/wjWO5hIb4oo"
                   },
@@ -388,6 +392,10 @@
                   {
                     "tipo": "Presentación",
                     "url": "https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Educatronica%20Volumen%201%2FPresentaciones%2FE1-PO8-CONGELADOR.pptx?alt=media&token=14de84f7-bd50-46ec-a3a1-012b85ed6f74"
+                  },
+                  {
+                    "tipo": "Video del funcionamiento",
+                    "url": "https://www.youtube.com/embed/TIoOlOd0mE4"
                   },
                   {
                     "tipo": "Videotutorial del armado",
