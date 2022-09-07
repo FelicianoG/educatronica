@@ -248,10 +248,10 @@
   
     }
 
-    @media (max-width: 340px) {
+    @media (max-width: 540px) {
       #module-container h1 {
         font-size: 2rem;
-        color: black;
+        color: rgb(0, 0, 0);
         padding: 0;
         margin: 0;
         top: 0;
@@ -262,5 +262,19 @@
         font-size: large;
         font-weight: 900;
         color: black;
+      }
+
+
+      #module-container div{
+        width: 100vw;
+      }
+
+      .module-cuadro-item li {
+       
+        font-size: medium;
+      }
+      .module-cuadro-item a, .module-cuadro-item h5 {
+        margin: 10px 0;
+        font-size: medium;
       }
     }
