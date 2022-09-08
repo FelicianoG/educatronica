@@ -19,7 +19,6 @@ export default function App() {
         .then( data => { setTestContext(data.data) } ).catch( err => console.log(`this is the error: ${err}`))
     },[])
     
-
   return (
     <div>    
         <myContext.Provider value={testContext}>

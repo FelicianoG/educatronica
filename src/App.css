@@ -265,15 +265,10 @@ body{
     position: absolute;
     top: 0;
     left: 93vw;
+    display:none
   }
   .blue-line {
-    height: 0.75vw;
-    max-height: 5px;
-    width: 45vw;
-    background-color: rgb(109, 216, 255);
-    position: absolute;
-    top: 34vw;
-    left: 0;
+    display:none
   }
   .main-page {
     background: rgb(255, 255, 255);
@@ -301,23 +296,23 @@ body{
     justify-content: space-around;
     margin: 0 0;
     padding: 0 20%;
-    height: 120vw;
+    min-height: 140vw;
   }
   .cuadritos .a {
-    width: 40vw;
-    height: 32vw;
+    width: 50vw;
+    height: 42vw;
     background-color: var(--color-one);
     border-radius: 12px;
   }
   .cuadritos .b {
-    width: 40vw;
-    height: 32vw;
+    width: 50vw;
+    height: 42vw;
     background-color: var(--color-two);
     border-radius: 12px;
   }
   .cuadritos .c {
-    width: 40vw;
-    height: 32vw;
+    width: 50vw;
+    height: 42vw;
     background-color: var(--color-three);
     border-radius: 12px;
   }
