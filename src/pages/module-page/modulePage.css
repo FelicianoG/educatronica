@@ -264,17 +264,14 @@
         color: black;
       }
 
-
-      #module-container div{
-        width: 100vw;
-      }
-
       .module-cuadro-item li {
-       
         font-size: medium;
       }
       .module-cuadro-item a, .module-cuadro-item h5 {
         margin: 10px 0;
         font-size: medium;
+      }
+      .module-cuadro-item {
+        overflow: revert;
       }
     }

@@ -21,7 +21,7 @@ export default function ModuleItem({ mes, setPortal, setVideoURL }) {
                       if(o.tipo === 'Video del funcionamiento'){return <h5 onClick={() => handleVideoModal(o.url)} className='secondary-list' key={uuid()}>{o.tipo}</h5>}
 
                       if(o.url === ''){return (<a style={{display:'block'}} href={o.url} rel='noreferrer' className='secondary-list' key={uuid()}>{o.tipo} (No disponible)</a>)}
-                      
+
                       return <a style={{display:'block'}} href={o.url} target="_blank" rel='noreferrer' className='secondary-list' key={uuid()}>{o.tipo}</a>})}
                 </div>})}
         </ul>
