@@ -23,7 +23,7 @@ export default function ModulePage({inicial}) {
     const [videoURL, setVideoURL] = useState('')
     function handleClosePortal(){setPortal(false)}
 
-    const [ selectedSection, setSelectedSection ] = useState('');
+    const [ selectedSection ] = useState('');
 
     const volumenes = [
         {modulo:moduleVolumeOne,kit:{
@@ -54,9 +54,9 @@ export default function ModulePage({inicial}) {
     <div className='App'>
         <main id='module-container' className={volumen.color}>
             <div className='module-title-container'>
-                <div className='module-alt-nav'> 
-                    <div className={`module-alt-nav-sides ${volumenes[id-1].prevColor}`} onClick={()=>{handleNavigate( id, 'back' )}} >{'<'}</div>
-                    <div className={`module-alt-nav-sides ${volumenes[id-1].nextColor}`} onClick={()=>{handleNavigate( id, 'forward' )}}>{'>'}</div>
+                <div style={{padding:'10px'}} className='module-alt-nav'> 
+                    <div style={{width:'10%'}} className={`module-alt-nav-sides ${volumenes[id-1].prevColor}`} onClick={()=>{handleNavigate( id, 'back' )}} >{'<'}</div>
+                    <div style={{width:'10%'}} className={`module-alt-nav-sides ${volumenes[id-1].nextColor}`} onClick={()=>{handleNavigate( id, 'forward' )}}>{'>'}</div>
                 </div>
                 <h1 className={`side-nav ${volumenes[id-1].prevColor}`} onClick={()=>{handleNavigate( id, 'back' )}}>{volumen.anterior}</h1>
                 <h1>{ volumen.titulo }</h1>
