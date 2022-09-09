@@ -29,60 +29,65 @@ export default function Modal({ handleClose, content, section }) {
         backgroundColor:'black',
         width:'70%',
         minHeight:'300px',
-        border:'solid black 2px',
         color: 'white',
         display:'flex',
         flexDirection:'column',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         alignItems:'center',
-        borderRadius:'30px',
-        boxShadow: '-5px 5px 5px #bbb',  
+
+        boxShadow: '-5px 5px 5px #bbb'
     }
     const BUTTON_STYLES = {
         backgroundColor: color,
-        border: 'none',
         padding:'10px 20px',
         borderRadius: '20px',
-        margin: '30px',
         textDecoration:'none',
+        textAlign:'center',
+        margin:'8px'
     }
     const CLOSE_STYLES = {
+        padding:'0 15px 0 0',
+        margin:'0',
         fontSize:'2rem',
         fontWeight:'900',
         color:'white',
-        padding:'8px 15px',
-        borderRadius:'15px',
         cursor:'pointer',
-        position:'absolute',
-        top:'275px'
-    }
-    const CLOSE_CONTAINER = {
-        display:'flex',
-        justifyContent:'flex-end',
-        alignItems:'center',
-        width:'100%',
-        marginRight:'30px',
-        position:'relative',
-        top:'-360px'
+        textAlign:'right',
+        JustifySelf:'flex-start',
+
     }
 
     return ReactDOM.createPortal(
         <>
             <div style={OVERLAY_STYLES} onClick={()=>{handleClose()}}>
+
                 <div style={MODAL_STYLES} onClick={ e => e.stopPropagation()}>
-                    <div style={CLOSE_CONTAINER}>
-                        <p style={CLOSE_STYLES}onClick={()=>{handleClose()}}>x</p>
-                    </div>
-                    <h1 style={{textAlign:'center', color:color,fontSize: 'calc( .5vw + 20px)', padding:'0 20px'}}>{content[section].titulo}</h1>
-                    <h2 style={{padding:'0 30px', textAlign:'center'}}>{content[section].mensaje}</h2>
-                    { content[section].titulo === 'Libro de trabajo' ? 
-                        <div>
-                            <p onClick={()=>{navigate(content[section].link)}}style={{...BUTTON_STYLES, textAlign:'center', color:'black', cursor:'pointer'}}>VER</p>
-                            <a href={content[section].url} target="_blank" rel='noreferrer' download={content[section].link} style={{...BUTTON_STYLES}}>DESCARGAR</a>
+                    <div style={{ width:'100%'}}>
+
+                        <div style={{display:'flex',justifyContent:'flex-end',alignItems:'center'}}>
+                            <p style={{...CLOSE_STYLES }}onClick={()=>{handleClose()}}>x</p>
                         </div>
-                        :
-                        <a href={content[section].link} target="_blank" rel='noreferrer' download={content[section].link} style={BUTTON_STYLES}>DESCARGAR</a>
-                    }
+                        <div style={{height:'300px',display:'flex',flexDirection:'column', alignItems:'center',justifyContent:'center'}}>
+                            <h1 style={{textAlign:'center', color:color,fontSize: 'calc( .5vw + 20px)', margin:'0 0 15px 0',padding:'0 20px'}}>
+                                {content[section].titulo}
+                            </h1>
+
+                            <h2 style={{padding:'0 45px', textAlign:'center'}}>
+                                {content[section].mensaje}
+                            </h2>
+                            <div style={{marginTop:'20px',display:'flex',flexDirection:'column', alignItems:'center'}}>
+                            { content[section].titulo === 'Libro de trabajo' ? 
+                                
+                                    <p onClick={()=>{navigate(content[section].link)}}style={{...BUTTON_STYLES,  color:'black', cursor:'pointer'}}>VER</p>
+                                    
+                                
+                                :
+                                null
+                            }
+                            <a href={content[section].url} target="_blank" rel='noreferrer' download={content[section].link} style={{...BUTTON_STYLES}}>DESCARGAR</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

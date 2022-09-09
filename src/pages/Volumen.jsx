@@ -1,22 +1,22 @@
 import React from 'react'
 import './volumen.css'
-import { useState, useEffect, useContext } from 'react'
+import { useState, useLayoutEffect, useContext } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import contextStore from '../context/store'
+import Modal from '../components/Modal'
 import icono1 from '../images/icono_material-01.svg'
 import icono2 from '../images/icono_material-02.svg'
 import icono3 from '../images/icono_material-03.svg'
 import icono4 from '../images/icono_material-04.svg'
 import icono5 from '../images/icono_material-05.svg'
-import Modal from '../components/Modal'
 
-export default function Volumen({inicial}) {
+export default function Volumen() {
     const navigate = useNavigate();
     const params = useParams();
     const context = useContext(contextStore);
 
     if((!params.id || params.id < 1) || params.id > 3){params.id = 1;}
-    useEffect(() => window.scrollTo(0, 0),[])
+    useLayoutEffect(() => window.scrollTo(0, 0),[])
 
     const [portal, setPortal] = useState(false);
     function handleClosePortal(){setPortal(false)}
@@ -139,7 +139,6 @@ export default function Volumen({inicial}) {
 
     return (
     <div className='App'>
-        {/* <header className="main-page-header"></header> */}
         <main id='volume-container' className={volumen.color}>
             <h3>{volumen.grado} Grado - Educación Secundaria</h3>
             <div className='title-container'>
