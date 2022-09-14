@@ -3,8 +3,7 @@ import '../App.css';
 import iconob1 from '../images/icono1.svg'
 import iconob2 from '../images/icono2.svg'
 import iconob3 from '../images/icono3.svg'
-import cuadros1 from '../images/CuadrosIzq.svg'
-import cuadros2 from '../images/CuadrosDer.svg'
+
 import { useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 
@@ -17,8 +16,6 @@ useEffect(() => window.scrollTo(0, 0),[])
       <main className='main-page-container'>
         <h1>EDUCATRÓNICA</h1>
         <div className='cuadros-container'>
-        <img id="cuadros-izquierda" src={cuadros1} alt="decoration" />
-        <img id="cuadros-derecha" src={cuadros2} alt="decoration" />
         </div>
         <p>Educatrónica es un programa de la Secretaría de Educación y 
           Cultura que consiste en una alternativa flexible y de fácil acceso para que las escuelas de educación secundaria puedan implementar la enseñanza de robótica básica mediante la asignatura de tecnología</p>
