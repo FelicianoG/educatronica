@@ -1,318 +1,234 @@
-body{
+body {
   --color-one: rgb(134, 194, 24);
   --color-two: rgb(245 135 10);
-  --color-three:rgb(195, 205, 0);
+  --color-three: rgb(195, 205, 0);
 }
 
-@media (min-width: 800px) {
-  /* PC */
-  body,
-  html {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-  }
-  a, a:visited {
-    text-decoration: none;
-    color: black
-  }
-  :root {
-    padding: 0;
-    margin: 0;
-  }
-  .logo-bg-main{
-    width:50%;
-    position: absolute;
-    top:35vw;
-    left:-200px;  z-index: -2;
-    min-width: 500px;
-  }
-  .main-page-header {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 40px;
-  
-    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.5);
-    margin: auto;
-    z-index: 2;
-  }
-  .app {
-    padding: 0 0;
-    overflow-x: hidden;
-  }
-  .main-page-container {
-    background-color: rgb(0 14 26);
-    width: 100%;
-    height: 50vw;
-    max-height: 850px;
-    z-index: 0;
-    padding: 0;
-    margin: 0;
-    position: relative;
-  }
-  .main-page-container h1 {
-    color: white;
-    font-size: 8vw;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    top: 8vw;
-    left: 6vw;
-  }
-  .main-page-container p {
-    padding: 0;
-    color: white;
-    font-size: 1.2vw;
-    width: 35vw;
-    text-align: right;
-    position: relative;
-    top: 23vw;
-    left: 50vw;
-  }
-  .cuadros-container {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: -5px;
-    width: 100%;
-    height: 100%;
-  }
-
-  #cuadros-izquierda {
-    width: 25vw;
-    top: 15vw;
-    max-width: 415px;
-    position: relative;
-    z-index: 1;
-    align-self: flex-end;
-  }
-  #cuadros-derecha {
-    width: 25vw;
-    top: 0.1vw;
-    position: relative;
-    z-index: -1;
-    align-self: flex-start;
-  }
-  .white-line {
-    width: 0.75vw;
-    max-width: 5px;
-    height: 100%;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left: 90vw;
-  }
-  .blue-line {
-    height: 0.75vw;
-    max-height: 5px;
-    width: 45vw;
-    background-color: rgb(109, 216, 255);
-    position: absolute;
-    top: 36vw;
-    left: 0;
-  }
-  .main-page {
-    background: rgba(255, 255, 255, 0);
-    z-index: 0;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    font-size: 1vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .main-page p {
-    color: black;
-    padding: 0;
-    max-width: 600px;
-    margin: 4vw auto 4vw auto;
-    font-size: 16px;
-    text-align: center;
-  }
-  .cuadritos {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 0;
-    padding: 0 20%;
-    z-index: 1;
-  }
-  .cuadritos .a {
-    width: 15vw;
-    height: 12vw;
-    background-color: var(--color-one);
-    border-radius: 12px;
-  }
-  .cuadritos .b {
-    width: 15vw;
-    height: 12vw;
-    background-color: var(--color-two);
-    border-radius: 12px;
-  }
-  .cuadritos .c {
-    width: 15vw;
-    height: 12vw;
-    background-color: var(--color-three);
-    border-radius: 12px;
-  }
-  .main-page button {
-    background-color: rgb(64 175 228);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: auto;
-    border-radius: 8px;
-  }
-  .main-page-footer {
-    height: 100px;
-  }
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+:root {
+  padding: 0;
+  margin: 0;
+}
+.logo-bg-main {
+  position: absolute;
+  top: 0;
+  left: -500px;
+  z-index: -2;
+  width: 1000px;
+}
+
+.app {
+  padding: 0 0;
+  overflow-x: hidden;
+}
+
+.main-logo {
+  width: 80%;
+  max-width: 1500px;
+}
+
+.main-page-container {
+  background-color: rgb(21, 50, 76);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  max-height: 850px;
+  z-index: 0;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.contact-info {
+  width: 100%;
+  text-align: center;
+}
+
+.main-page,
+.programa,
+.contacto {
+  background: rgba(255, 255, 255, 0);
+  z-index: 0;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contacto {
+  background-color: var(--color-one);
+}
+
+.main-page {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 8px 0px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.programa,
+.contacto {
+  width: 100%;
+  align-items: center;
+  padding: 30px 0 90px;
+  color: white;
+}
+.main-page p,
+.programa p,
+.contacto p {
+  color: black;
+  padding: 0;
+  width: 60%;
+  max-width: 900px;
+  margin: 4vw auto 4vw auto;
+  font-size: x-large;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 6px;
+  line-height: 35px;
+}
+.programa a {
+  font-size: x-large;
+  color: white;
+  padding: 20px;
+  margin-top: 1vw;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: var(--color-two);
+}
+.cuadritos {
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  width: 60%;
+}
+
+.cuadritos-title {
+  font-size: xxx-large;
+  margin-bottom: 120px;
+}
+
+.cuadritos .a {
+  width: 15vw;
+  height: 12vw;
+  background-color: var(--color-one);
+  border-radius: 12px;
+}
+.cuadritos .b {
+  width: 15vw;
+  height: 12vw;
+  background-color: var(--color-two);
+  border-radius: 12px;
+}
+.cuadritos .c {
+  width: 15vw;
+  height: 12vw;
+  background-color: var(--color-three);
+  border-radius: 12px;
+}
+.main-page button {
+  background-color: rgb(64 175 228);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  border-radius: 8px;
+}
+.main-page-footer {
+  height: 160px;
+  box-shadow: 8px 0px 20px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 100%;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ------------==============--------------- */
 @media (max-width: 800px) {
   /* Smartphone */
-  body,
-  html {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-  }
-  :root {
-    padding: 0;
-    margin: 0;
-  }
-  .main-page-header {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 40px;
-    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.5);
-    margin: auto;
-  }
-  .app {
-    padding: 0 0;
-  }
+
   .main-page-container {
-    background-color: rgb(0 14 26);
-    width: 100%;
-    height: 80vw;
-    max-height: 1000px;
-    z-index: 0;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    height: 50vh;
   }
 
-  a, a:visited {
-    text-decoration: none;
-    color: black
+  .programa,
+  .main-page,
+  .contacto {
+    height: 50vh;
+  }
+  .contacto h1 {
+    font-size: 2vh;
   }
 
-  .cuadros-container {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: -5px;
-    width: 100%;
-    height: 100%;
+  .programa p {
+    font-size: small;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
   }
 
-  #cuadros-izquierda {
-    width: 18vw;
-    position: relative;
-    top: 15vw;
-    z-index: 0;
-
-    align-self: flex-end;
-  }
-  #cuadros-derecha {
-    width: 15vw;
-    top: 1vw;
-    position: relative;
-    z-index: -1;
-    align-self: flex-start;
-  }
-
-  .main-page-container h1 {
-    color: white;
-    font-size: 9vw;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 2vw;
-    top: -8vw;
-  }
-  .main-page-container p {
-    color: white;
-    text-align: center;
-    font-size: 1rem;
-    position: relative;
-    padding: 0 35px;
-    margin: 0;
-    top: 5vw;
-  }
-  .white-line {
-    width: 0.75vw;
-    max-width: 5px;
-    height: 100%;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left: 93vw;
-    display:none
-  }
-  .blue-line {
-    display:none
-  }
   .main-page {
-    background: rgb(255, 255, 255);
-    position: relative;
-    padding: 0;
-    margin: 0;
-    font-size: 1vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: fit-content;
   }
-  .main-page p {
-    color: black;
-    padding: 0 3rem;
-    line-height: 1.5rem;
-    max-width: 600px;
-    margin: 8vw auto 8vw auto;
-    font-size: 16px;
-    text-align: center;
+  .cuadritos-title {
+    margin: 40px 0 20px;
+    font-size: xx-large;
   }
+
   .cuadritos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 0 0;
+    margin: 0 0 60px;
     padding: 0 20%;
-    min-height: 140vw;
+    min-height: 120vw;
   }
   .cuadritos .a {
-    width: 50vw;
-    height: 42vw;
+    width: 40vw;
+    height: 34vw;
     background-color: var(--color-one);
     border-radius: 12px;
   }
   .cuadritos .b {
-    width: 50vw;
-    height: 42vw;
+    width: 40vw;
+    height: 34vw;
     background-color: var(--color-two);
     border-radius: 12px;
   }
   .cuadritos .c {
-    width: 50vw;
-    height: 42vw;
+    width: 40vw;
+    height: 34vw;
     background-color: var(--color-three);
     border-radius: 12px;
   }
@@ -331,25 +247,27 @@ body{
   .main-page-footer {
     height: 100px;
   }
-  .logo-bg-main{
+  .logo-bg-main {
     display: none;
-
   }
 }
+
+/* Rest of the selectors */
+
 .cuadritos img {
   width: 60%;
 }
-.cuadro { 
+.cuadro {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 .cuadro:hover,
 .main-page button:hover {
-  transform:  scale(1.08);
+  transform: scale(1.08);
 }
 h2 {
   padding: 0;
