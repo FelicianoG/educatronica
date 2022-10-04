@@ -4,6 +4,9 @@ import iconob1 from "../images/icono1.svg";
 import iconob2 from "../images/icono2.svg";
 import iconob3 from "../images/icono3.svg";
 import logoMain from "../images/logoMain.svg";
+import logoDGIDT from "../images/logoDGIDT.png";
+import logoSEC from "../images/logoSEC.png";
+import logoSONORA from "../images/logoSONORA.png";
 
 import { useNavigate } from "react-router-dom";
 import { useEffect, useRef } from "react";
@@ -31,18 +34,7 @@ function App() {
         {/* <div className="white-line"></div>
         <div className="blue-line"></div> */}
       </main>
-      {/* <div
-        className="sections"
-        style={{
-          margin: 0,
-          width: "80%",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      > */}
-      <section ref={programa} className="programa">
+      <section className="programa">
         <p className="main-p">
           Programa de la Secretaría de Educación y Cultura del estado de Sonora
           para la enseñanza de robótica en escuelas de educación secundaria.
@@ -61,7 +53,9 @@ function App() {
           <polygon points="539.64 433.82 539.64 534.31 510.57 551.13 510.57 450.64 539.64 433.82" />
           <polygon points="692.22 347.68 692.22 448.17 663.14 464.99 663.14 364.5 692.22 347.68" />
         </svg>
-        <a href="/">PDF del programa</a>
+        <a href="https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Carta%20descriptiva%20Educatronica%20.pdf?alt=media&token=1de74bda-d316-42a7-9633-d4e967c81051">
+          Carta descriptiva
+        </a>
       </section>
 
       <section className="main-page">
@@ -104,8 +98,22 @@ function App() {
           Correo: innovacionsec@sonora.edu.mx
         </h1>
       </section>
-      {/* </div> */}
-      <footer className="main-page-footer">Footer</footer>
+      <footer className="main-page-footer">
+        <div className="footer-logo-container">
+          <img
+            src={logoDGIDT}
+            alt="logo de la Dirección General de Innovación y Desarrollo Tecnológico"
+          ></img>
+          <img
+            src={logoSEC}
+            alt="logo de la Secretaría de Educación y Cultura"
+          ></img>
+          <img
+            src={logoSONORA}
+            alt="logo del Gobierno del Estado de Sonora"
+          ></img>
+        </div>
+      </footer>
     </div>
   );
 }
