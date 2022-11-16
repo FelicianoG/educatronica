@@ -58,6 +58,7 @@ a:visited {
 .contact-info {
   width: 100%;
   text-align: center;
+  margin-top: auto;
 }
 
 .main-page,
@@ -78,7 +79,7 @@ a:visited {
 }
 .contacto {
   background-color: var(--color-one);
-  height: 80vh;
+  height: 100vh;
 }
 
 .main-page {
@@ -94,7 +95,7 @@ a:visited {
 .contacto {
   width: 100%;
   align-items: center;
-  padding: 30px 0 90px;
+  padding: 0;
   color: white;
 }
 .main-page p,
@@ -166,6 +167,7 @@ a:visited {
 .main-page-footer {
   display: flex;
   justify-content: center;
+  margin-top: auto;
   align-items: center;
   background-color: white;
   width: 100%;
@@ -322,13 +324,14 @@ h2 {
     font-size: large;
   }
   .contacto {
-    height: 90vh;
+    height: 100vh;
   }
   .contact-info {
-    margin-top: 20%;
+    margin-top: auto;
   }
   .main-page-footer {
     height: 10vh;
+    margin-top: auto;
   }
 }
 

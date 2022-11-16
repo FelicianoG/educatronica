@@ -36,8 +36,7 @@ function App() {
       </main>
       <section className="programa">
         <p className="main-p">
-          Programa de la Secretaría de Educación y Cultura del estado de Sonora
-          para la enseñanza de robótica en escuelas de educación secundaria.
+          Programa de la Secretaría de Educación y Cultura del estado de Sonora para la enseñanza de robótica en escuelas de educación secundaria.
         </p>
         <svg
           className="logo-bg-main"
@@ -97,23 +96,14 @@ function App() {
           Teléfono: (662)289 7600, ext. 2351 <br />
           Correo: innovacionsec@sonora.edu.mx
         </h1>
+        <footer className="main-page-footer">
+          <div className="footer-logo-container">
+            <img src={logoDGIDT} alt="logo de la Dirección General de Innovación y Desarrollo Tecnológico"></img>
+            <img src={logoSEC} alt="logo de la Secretaría de Educación y Cultura"></img>
+            <img src={logoSONORA} alt="logo del Gobierno del Estado de Sonora"></img>
+          </div>
+        </footer>
       </section>
-      <footer className="main-page-footer">
-        <div className="footer-logo-container">
-          <img
-            src={logoDGIDT}
-            alt="logo de la Dirección General de Innovación y Desarrollo Tecnológico"
-          ></img>
-          <img
-            src={logoSEC}
-            alt="logo de la Secretaría de Educación y Cultura"
-          ></img>
-          <img
-            src={logoSONORA}
-            alt="logo del Gobierno del Estado de Sonora"
-          ></img>
-        </div>
-      </footer>
     </div>
   );
 }
