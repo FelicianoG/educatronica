@@ -8,7 +8,7 @@ import Modulo from "./pages/module-page/ModulePage";
 import myContext from "./context/store.js";
 import { useState } from "react";
 import PDFViewer from "./pages/PDFViewer";
-import json from "./context/JSON.json";
+import { json } from "./context/json2.js";
 
 export default function App() {
   const [testContext] = useState(json);

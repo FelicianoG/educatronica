@@ -11,6 +11,8 @@ import logoSONORA from "../images/logoSONORA.png";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useRef } from "react";
 
+console.log(process.env);
+
 function App() {
   const programa = useRef(null);
   const navigate = useNavigate();
@@ -52,9 +54,7 @@ function App() {
           <polygon points="539.64 433.82 539.64 534.31 510.57 551.13 510.57 450.64 539.64 433.82" />
           <polygon points="692.22 347.68 692.22 448.17 663.14 464.99 663.14 364.5 692.22 347.68" />
         </svg>
-        <a href="https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/Carta%20descriptiva%20Educatronica%20.pdf?alt=media&token=1de74bda-d316-42a7-9633-d4e967c81051">
-          Carta descriptiva
-        </a>
+        <a href={logoSEC}>Carta descriptiva</a>
       </section>
 
       <section className="main-page">
