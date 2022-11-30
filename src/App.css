@@ -215,9 +215,13 @@ h2 {
   }
 
   .app {
-    height: fit-content;
-    overflow: unset;
-    scroll-snap-type: none;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+
+    /* scroll-snap-type: none; */
   }
 
   .programa,

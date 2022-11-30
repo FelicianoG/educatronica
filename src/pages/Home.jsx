@@ -7,9 +7,10 @@ import logoMain from "../images/logoMain.svg";
 import logoDGIDT from "../images/logoDGIDT.png";
 import logoSEC from "../images/logoSEC.png";
 import logoSONORA from "../images/logoSONORA.png";
-
 import { useNavigate } from "react-router-dom";
 import { useEffect, useRef } from "react";
+
+const PUBLIC_URL = process.env.PUBLIC_URL;
 
 console.log(process.env);
 
@@ -54,7 +55,7 @@ function App() {
           <polygon points="539.64 433.82 539.64 534.31 510.57 551.13 510.57 450.64 539.64 433.82" />
           <polygon points="692.22 347.68 692.22 448.17 663.14 464.99 663.14 364.5 692.22 347.68" />
         </svg>
-        <a href={logoSEC}>Carta descriptiva</a>
+        <a href={PUBLIC_URL + "recursos/Carta-descriptiva-Educatronica-2022.pdf"}>Carta descriptiva</a>
       </section>
 
       <section className="main-page">
