@@ -1,9 +1,11 @@
 # Educatronica Web App
 
+Link: https://educatronica.sonora.edu.mx/
+
 This is a proyect for the Innovation and Technology Development Direction 
 in the Secretary of Education and Culture in the state of Sonora, México
 
-## This was created using React and Firebase
+## This was created using React
 
 The general purpose of this app is to make it easy for proffesors and students to access
 the resources necesary for the Educatronica proyect, which aims to educate middle school
