@@ -30,26 +30,29 @@ export default function Volumen() {
     {
       kit: {
         titulo: "Kit de educatronica",
-        mensaje: "Haz click aquí para descargar el kit de Educatrónica",
+        mensaje: ["Haz click aquí para descargar el kit de Educatrónica"],
         link: context.volumeOneURLS.kit,
       },
       instalacion: {
         titulo: "Instalación y configuración",
-        mensaje:
-          "Haz click aquí para descargar el manual de instalación y configuración",
+        mensaje: ["Haz click aquí para descargar el manual de instalación y configuración"],
         link: context.volumeOneURLS.instalacion,
       },
       libro: {
         titulo: "Libro de trabajo",
-        mensaje: "Haz click aquí para descargar el libro de trabajo",
+        mensaje: ["Haz click aquí para descargar el libro de trabajo"],
         link: context.volumeOneURLS.nav,
         url: context.volumeOneURLS.libroDescarga,
       },
       evaluacion: {
         titulo: "Evaluación diagnóstica",
-        mensaje:
-          "Haz click aquí para descargar el manual de evaluación diagnóstica",
+        mensaje: ["Haz click aquí para descargar el manual de evaluación diagnóstica"],
         link: context.volumeOneURLS.evaluacion,
+      },
+      nano: {
+        titulo: "Recursos educativos con Arduino NANO",
+        mensaje: ["Nota: El soporte para arduino Nano cesará próximamente."],
+        link: context.volumeOneURLS.nano,
       },
       bgcolor: context.bgColors.one,
       color: "green",
@@ -63,26 +66,29 @@ export default function Volumen() {
     {
       kit: {
         titulo: "Kit de educatronica",
-        mensaje: "Haz click aquí para descargar el kit de Educatrónica",
+        mensaje: ["Haz click aquí para descargar el kit de Educatrónica"],
         link: context.volumeTwoURLS.kit,
       },
       instalacion: {
         titulo: "Instalación y configuración",
-        mensaje:
-          "Haz click aquí para descargar el manual de instalación y configuración",
+        mensaje: ["Haz click aquí para descargar el manual de instalación y configuración"],
         link: context.volumeTwoURLS.instalacion,
       },
       libro: {
         titulo: "Libro de trabajo",
-        mensaje: "Haz click aquí para descargar el libro de trabajo",
+        mensaje: ["Haz click aquí para descargar el libro de trabajo"],
         link: context.volumeTwoURLS.nav,
         url: context.volumeTwoURLS.libroDescarga,
       },
       evaluacion: {
         titulo: "Evaluación diagnóstica",
-        mensaje:
-          "Haz click aquí para descargar el manual de evaluación diagnóstica",
+        mensaje: ["Haz click aquí para descargar el manual de evaluación diagnóstica"],
         link: context.volumeTwoURLS.evaluacion,
+      },
+      nano: {
+        titulo: "Recursos educativos con Arduino NANO",
+        mensaje: ["Nota: El soporte para arduino Nano cesará próximamente."],
+        link: context.volumeOneURLS.nano,
       },
       bgcolor: context.bgColors.two,
       color: "orange",
@@ -96,26 +102,29 @@ export default function Volumen() {
     {
       kit: {
         titulo: "Kit de educatronica",
-        mensaje: "Haz click aquí para descargar el kit de Educatrónica",
+        mensaje: ["Haz click aquí para descargar el kit de Educatrónica"],
         link: context.volumeThreeURLS.kit,
       },
       instalacion: {
         titulo: "Instalación y configuración",
-        mensaje:
-          "Haz click aquí para descargar el manual de instalación y configuración",
+        mensaje: ["Haz click aquí para descargar el manual de instalación y configuración"],
         link: context.volumeThreeURLS.instalacion,
       },
       libro: {
         titulo: "Libro de trabajo",
-        mensaje: "Haz click aquí para descargar el libro de trabajo",
+        mensaje: ["Haz click aquí para descargar el libro de trabajo"],
         link: context.volumeThreeURLS.nav,
         url: context.volumeThreeURLS.libroDescarga,
       },
       evaluacion: {
         titulo: "Evaluación diagnóstica",
-        mensaje:
-          "Haz click aquí para descargar el manual de evaluación diagnóstica",
+        mensaje: ["Haz click aquí para descargar el manual de evaluación diagnóstica"],
         link: context.volumeThreeURLS.evaluacion,
+      },
+      nano: {
+        titulo: "Recursos educativos con Arduino NANO",
+        mensaje: ["Nota: El soporte para arduino Nano cesará próximamente."],
+        link: context.volumeOneURLS.nano,
       },
       bgcolor: context.bgColors.three,
       color: "blue",
@@ -193,18 +202,8 @@ export default function Volumen() {
             {volumen.siguiente}
           </h1>
         </div>
-        <h4>
-          A continuación, ponemos a tu disposición el siguiente material con el
-          que podrás impartir tus clases
-        </h4>
-        <svg
-          className="logo-bg"
-          fill={volumen.bgcolor}
-          id="Capa_1"
-          data-name="Capa 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 840 831.34"
-        >
+        <h4>A continuación, ponemos a tu disposición el siguiente material con el que podrás impartir tus clases</h4>
+        <svg className="logo-bg" fill={volumen.bgcolor} id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 831.34">
           <title>Simbolo</title>
           <path d="M834.48,621.44c-11.56-6.9-42.23-24.86-63.65-37.31l-.38-.24-13.71-8L836,530l-81.4-47.12V195.94L419.46,2,86.64,194.61l-.73.4v288.8L5.5,530.37l78.2,45.26L69.32,584l-.18.12-.08,0L3.4,622.54l353,204.25.73.44,63.3-36.65L483,826.79l.38.2h.79L836.6,622.72ZM420.42,787.21,86.54,594.07l14.35-8.38h0L412,765.64V383.46L106.43,206.6l313-181.14L733.11,207l-89.64,51.83L405.08,120.86l-20.25,11.73,143.51,83L439.69,267,296.18,183.9l-20.29,11.7,238.42,138L428.45,383.2V765.85l309.08-178.8v0l2.13-1.22,13.39,7.8ZM733.49,230.46v335L449.58,729.82V394.75Z" />
           <polygon points="652.03 478.13 651.88 523.62 560.64 576.41 560.64 531.01 581.77 518.76 581.77 540.38 630.87 511.95 630.87 490.35 652.03 478.13" />
@@ -268,19 +267,25 @@ export default function Volumen() {
               <p>Presentaciones de clase</p>
             </div>
           </div>
+          <div className="cuadro-row nano">
+            <div
+              onClick={() => {
+                handlePortal("nano");
+              }}
+              className="cuadro-item-lg"
+            >
+              <p style={{ paddingBottom: 0 }}>
+                Recursos educativos <br /> con Arduino NANO
+              </p>
+            </div>
+          </div>
         </section>
 
         <footer className="volume-footer">
           <button onClick={() => navigate("/")}>Volver al inicio</button>
         </footer>
       </main>
-      {portal && (
-        <Modal
-          section={selectedSection}
-          content={volumenes[id - 1]}
-          handleClose={handleClosePortal}
-        />
-      )}
+      {portal && <Modal section={selectedSection} content={volumenes[id - 1]} handleClose={handleClosePortal} />}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import Home from "./pages/Home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Volumen from "./pages/Volumen";
 import Login from "./pages/Login";
 import Modulo from "./pages/module-page/ModulePage";
@@ -20,9 +20,9 @@ export default function App() {
   return (
     <div>
       <myContext.Provider value={testContext}>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route index path="/" element={<Home />} />
             <Route path="/pdf" element={<PDFViewer />}>
               <Route path=":libro" element={<Volumen />} />
             </Route>
@@ -34,7 +34,7 @@ export default function App() {
             </Route>
             <Route path="/login" element={<Login />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </myContext.Provider>
     </div>
   );

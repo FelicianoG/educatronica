@@ -218,7 +218,7 @@ h2 {
     height: 100vh;
     overflow: auto;
     scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
+    scroll-snap-align: end;
     scroll-behavior: smooth;
 
     /* scroll-snap-type: none; */
@@ -336,6 +336,9 @@ h2 {
   .main-page-footer {
     height: 10vh;
     margin-top: auto;
+  }
+  .nano {
+    padding-bottom: 0;
   }
 }
 

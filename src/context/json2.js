@@ -10,6 +10,7 @@ export const json = {
     libroDescarga: PUBLIC_URL + "/recursos/Educatrónica-volumen-1/Libro/Educatronica-Volumen-I-2022.pdf",
     libro: "https://online.anyflip.com/zrvcx/lyyx/index.html",
     nav: "/pdf/1",
+    nano: "https://drive.google.com/drive/folders/1YzKVZtZFVQ5XPfOlZlKltlzqs9V-pm0j?usp=share_link",
   },
   volumeTwoURLS: {
     kit: PUBLIC_URL + "/recursos/Educatrónica-volumen-2/Kit-de-educatrónica/Esp-basicas-kit-Educatronica-2-22.pdf",
@@ -18,6 +19,7 @@ export const json = {
     libroDescarga: PUBLIC_URL + "/recursos/Educatrónica-volumen-2/Libro/Educatrónica-Volumen-II-2022.pdf",
     libro: "https://online.anyflip.com/zrvcx/etdb/index.html",
     nav: "/pdf/2",
+    nano: "https://drive.google.com/drive/folders/1YzKVZtZFVQ5XPfOlZlKltlzqs9V-pm0j?usp=share_link",
   },
   volumeThreeURLS: {
     kit: PUBLIC_URL + "/recursos/Educatrónica-volumen-3/Kit-de-educatrónica/Esp-basicas-kit-Educatronica-3-22.pdf",
@@ -26,6 +28,7 @@ export const json = {
     libroDescarga: PUBLIC_URL + "/recursos/Educatrónica-volumen-3/Libro/Educatrónica-Volumen-III-2022.pdf",
     libro: "https://online.anyflip.com/zrvcx/ozix/index.html",
     nav: "/pdf/3",
+    nano: "https://drive.google.com/drive/folders/1YzKVZtZFVQ5XPfOlZlKltlzqs9V-pm0j?usp=share_link",
   },
   moduleVolumeOne: [
     {

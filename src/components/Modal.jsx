@@ -101,10 +101,19 @@ export default function Modal({ handleClose, content, section }) {
               >
                 {content[section].titulo}
               </h1>
+              <h2 style={{ padding: "0 45px", textAlign: "center" }}>{content[section].mensaje[0]}</h2>
+              {/* {content[section].mensaje.map((o, i) =>
+                i === 0 ? (
+                  <h2 key={i + "key"} style={{ padding: "0 45px", textAlign: "center" }}>
+                    {o}
+                  </h2>
+                ) : (
+                  <h5 id="nota" key={i + "key"} style={{ padding: "0 70px", textAlign: "center" }}>
+                    {o}
+                  </h5>
+                )
+              )} */}
 
-              <h2 style={{ padding: "0 45px", textAlign: "center" }}>
-                {content[section].mensaje}
-              </h2>
               <div
                 style={{
                   marginTop: "20px",
@@ -128,11 +137,7 @@ export default function Modal({ handleClose, content, section }) {
                   </p>
                 ) : null}
                 <a
-                  href={
-                    content[section].url
-                      ? content[section].url
-                      : content[section].link
-                  }
+                  href={content[section].url ? content[section].url : content[section].link}
                   target="_blank"
                   rel="noreferrer"
                   download={content[section].link}
