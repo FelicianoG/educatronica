@@ -51,7 +51,7 @@ export default function Volumen() {
       },
       nano: {
         titulo: "Recursos educativos con Arduino NANO",
-        mensaje: ["Nota: El soporte para arduino Nano cesará próximamente."],
+        mensaje: ["Nota: El soporte para Arduino Nano cesará próximamente."],
         link: context.volumeOneURLS.nano,
       },
       bgcolor: context.bgColors.one,
@@ -87,7 +87,7 @@ export default function Volumen() {
       },
       nano: {
         titulo: "Recursos educativos con Arduino NANO",
-        mensaje: ["Nota: El soporte para arduino Nano cesará próximamente."],
+        mensaje: ["Nota: El soporte para Arduino Nano cesará próximamente."],
         link: context.volumeOneURLS.nano,
       },
       bgcolor: context.bgColors.two,
@@ -123,7 +123,7 @@ export default function Volumen() {
       },
       nano: {
         titulo: "Recursos educativos con Arduino NANO",
-        mensaje: ["Nota: El soporte para arduino Nano cesará próximamente."],
+        mensaje: ["Nota: El soporte para Arduino Nano cesará próximamente."],
         link: context.volumeOneURLS.nano,
       },
       bgcolor: context.bgColors.three,
