@@ -12,10 +12,6 @@ import { json } from "./context/json2.js";
 
 export default function App() {
   const [testContext] = useState(json);
-  // useLayoutEffect(()=>{
-  //     axios.get('https://firebasestorage.googleapis.com/v0/b/educatronica-son.appspot.com/o/JSON.json?alt=media&token=51f4b646-0ae1-47eb-a9a2-8e8be5bfc24a')
-  //     .then( data => { setTestContext(data.data) } ).catch( err => console.log(`this is the error: ${err}`))
-  // },[])
 
   return (
     <div>
