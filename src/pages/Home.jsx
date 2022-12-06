@@ -12,8 +12,6 @@ import { useEffect, useRef } from "react";
 
 const PUBLIC_URL = process.env.PUBLIC_URL;
 
-console.log(process.env);
-
 function App() {
   const programa = useRef(null);
   const navigate = useNavigate();
@@ -38,8 +36,10 @@ function App() {
         <div className="blue-line"></div> */}
       </main>
       <section className="programa">
-        <p className="main-p">
-          Programa de la Secretaría de Educación y Cultura del estado de Sonora para la enseñanza de robótica en escuelas de educación secundaria.
+        <p className="main-p" style={{ fontWeight: "500" }}>
+          Programa de la <span style={{ fontWeight: "800" }}>Secretaría de Educación y Cultura del estado de Sonora </span> para la enseñanza de
+          robótica en escuelas de educación secundaria, desarrollado por la
+          <span style={{ fontWeight: "800" }}> Dirección de Inovación y Desarrollo Tecnológico</span>.
         </p>
         <svg
           className="logo-bg-main"

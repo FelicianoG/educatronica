@@ -127,6 +127,10 @@ export const json = {
                   tipo: "Presentación",
                   url: PUBLIC_URL + "/recursos/Educatrónica-volumen-1/Presentaciones-de-clase/Proyecto1/E1-PA1-LED.pptx",
                 },
+                {
+                  tipo: "Modelo 3d",
+                  url: "/#/modelo",
+                },
               ],
             },
             {

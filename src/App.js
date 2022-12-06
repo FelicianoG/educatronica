@@ -9,6 +9,7 @@ import myContext from "./context/store.js";
 import { useState } from "react";
 import PDFViewer from "./pages/PDFViewer";
 import { json } from "./context/json2.js";
+import Modelo3D from "./Three/Modelo3D";
 
 export default function App() {
   const [testContext] = useState(json);
@@ -24,6 +25,9 @@ export default function App() {
             </Route>
             <Route path="/volumenes" element={<Volumen />}>
               <Route path=":id" element={<Volumen />} />
+            </Route>
+            <Route path="/modelo" element={<Modelo3D />}>
+              <Route path=":id" element={<Modelo3D />} />
             </Route>
             <Route path="/modulos" element={<Modulo />}>
               <Route path=":id" element={<Modulo />} />
