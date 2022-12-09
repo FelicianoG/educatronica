@@ -39,7 +39,7 @@ function App() {
         <p className="main-p" style={{ fontWeight: "500" }}>
           Programa de la <span style={{ fontWeight: "800" }}>Secretaría de Educación y Cultura del estado de Sonora </span> para la enseñanza de
           robótica en escuelas de educación secundaria, desarrollado por la
-          <span style={{ fontWeight: "800" }}> Dirección de Inovación y Desarrollo Tecnológico</span>.
+          <span style={{ fontWeight: "800" }}> Dirección General de Innovación y Desarrollo Tecnológico</span>.
         </p>
         <svg
           className="logo-bg-main"

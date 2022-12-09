@@ -1,10 +1,11 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, PerspectiveCamera, Environment } from "@react-three/drei";
-import { Model as PruebaEducatronica } from "./models/PruebaEducatronica";
+import { OrbitControls, PerspectiveCamera, Environment, Html } from "@react-three/drei";
+import { Model as PruebaEducatronica } from "./models/ThreejsEducatronica2";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 import logoMain from "../images/logoMain.svg";
 import { useNavigate } from "react-router-dom";
+import ErrorBoundary from "../components/ErrorBoundary";
 
 const STYLE = {
   width: "100%",
@@ -13,6 +14,18 @@ const STYLE = {
   top: "0",
   left: "0",
   zIndex: "0",
+};
+
+const FallbackGeo = () => {
+  return (
+    <mesh>
+      <Html position={[-3.5, 2, 0]}>
+        <h1 style={{ backgroundColor: "red", padding: "20px", borderRadius: "15px", width: "300px", textAlign: "center" }}>Cargando el Modelo</h1>
+      </Html>
+      <boxGeometry />
+      <meshStandardMaterial />
+    </mesh>
+  );
 };
 
 export default function Modelo3D() {
@@ -33,12 +46,14 @@ export default function Modelo3D() {
 
       <div id="canvas-container" style={STYLE}>
         <Canvas style={{ background: "#66CCFF" }}>
-          <Suspense fallback={null}>
-            <PruebaEducatronica></PruebaEducatronica>
+          <Suspense fallback={<FallbackGeo />}>
+            <ErrorBoundary fallback={<FallbackGeo />}>
+              <PruebaEducatronica></PruebaEducatronica>
+              <OrbitControls enablePan={true} enableZoom={true} minPolarAngle={Math.PI / 8} maxPolarAngle={Math.PI / 2} />
+              <Environment preset="forest" />
+              <PerspectiveCamera aspect={width / height} fov={15} makeDefault manual position={[2, 5, 2]} />
+            </ErrorBoundary>
           </Suspense>
-          <Environment preset="forest" />
-          <PerspectiveCamera aspect={width / height} fov={15} makeDefault manual position={[2, 5, 2]} />
-          <OrbitControls enablePan={true} enableZoom={true} minPolarAngle={Math.PI / 8} maxPolarAngle={Math.PI / 2} />
         </Canvas>
       </div>
     </div>
