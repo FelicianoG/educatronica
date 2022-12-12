@@ -10,6 +10,8 @@ import { useState } from "react";
 import PDFViewer from "./pages/PDFViewer";
 import { json } from "./context/json2.js";
 import Modelo3D from "./Three/Modelo3D";
+import Modelo3DInterno from "./Three/Modelo3DInterno";
+import Modelo3DGlb from "./Three/Modelo3DGlb";
 
 export default function App() {
   const [testContext] = useState(json);
@@ -28,6 +30,12 @@ export default function App() {
             </Route>
             <Route path="/modelo" element={<Modelo3D />}>
               <Route path=":id" element={<Modelo3D />} />
+            </Route>
+            <Route path="/modelo2" element={<Modelo3DInterno />}>
+              <Route path=":id" element={<Modelo3DInterno />} />
+            </Route>
+            <Route path="/modeloglb" element={<Modelo3DGlb />}>
+              <Route path=":id" element={<Modelo3DGlb />} />
             </Route>
             <Route path="/modulos" element={<Modulo />}>
               <Route path=":id" element={<Modulo />} />

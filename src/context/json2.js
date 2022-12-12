@@ -140,6 +140,10 @@ export const json = {
                   tipo: "Presentación",
                   url: PUBLIC_URL + "/recursos/Educatrónica-volumen-1/Presentaciones-de-clase/Proyecto1/E1-PA2-LED.pptx",
                 },
+                {
+                  tipo: "Modelo 3d local",
+                  url: "/#/modelo2",
+                },
               ],
             },
             {
@@ -148,6 +152,10 @@ export const json = {
                 {
                   tipo: "Presentación",
                   url: PUBLIC_URL + "/recursos/Educatrónica-volumen-1/Presentaciones-de-clase/Proyecto1/E1-PA3-LED.pptx",
+                },
+                {
+                  tipo: "Modelo 3d local glb",
+                  url: "/#/modeloglb",
                 },
               ],
             },

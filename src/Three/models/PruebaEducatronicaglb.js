@@ -8,7 +8,7 @@ import { useGLTF } from "@react-three/drei";
 const PUBLIC_URL = process.env.PUBLIC_URL;
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF(PUBLIC_URL + "./PruebaEducatronica.gltf");
+  const { nodes, materials } = useGLTF(PUBLIC_URL + "./PruebaEducatronica2.glb");
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Text035.geometry} material={materials["Material.006"]} />
@@ -26,4 +26,4 @@ export function Model(props) {
   );
 }
 
-useGLTF.preload("./PruebaEducatronica.gltf");
+useGLTF.preload("./PruebaEducatronica2.glb");
