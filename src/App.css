@@ -120,6 +120,7 @@ a:visited {
   font-weight: 600;
   cursor: pointer;
   background-color: var(--color-two);
+  border-radius: 1rem;
 }
 .cuadritos {
   display: flex;
