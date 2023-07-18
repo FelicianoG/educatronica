@@ -30,10 +30,6 @@ function App() {
         className="main-page-container"
       >
         <img className="main-logo" src={logoMain} alt="Logo Educatronica" />
-        <div className="cuadros-container"></div>
-
-        {/* <div className="white-line"></div>
-        <div className="blue-line"></div> */}
       </main>
       <section className="programa">
         <p className="main-p" style={{ fontWeight: "500" }}>
