@@ -1,7 +1,7 @@
 import "../../App.css";
-import iconob1 from "../../images/icono_construccion.svg";
-import iconob2 from "../../images/icono_conexion.svg";
-import iconob3 from "../../images/icono_programacion.svg";
+import constructionIcon from "../../images/icono_construccion.svg";
+import connectionIcon from "../../images/icono_conexion.svg";
+import codeIcon from "../../images/icono_programacion.svg";
 import logoMain from "../../images/logoMain.svg";
 import logoDGIDT from "../../images/logoDGIDT.png";
 import logoSEC from "../../images/logoSEC.png";
@@ -63,7 +63,7 @@ export default function Home() {
             }}
             className="cuadro a"
           >
-            <img src={iconob1} alt="construction icon" />
+            <img src={constructionIcon} alt="construction icon" />
             <h2>VOLUMEN I</h2>
           </div>
           <div
@@ -72,7 +72,7 @@ export default function Home() {
             }}
             className="cuadro b"
           >
-            <img src={iconob2} alt="conexion icon" />
+            <img src={connectionIcon} alt="conexion icon" />
             <h2>VOLUMEN II</h2>
           </div>
           <div
@@ -81,7 +81,7 @@ export default function Home() {
             }}
             className="cuadro c"
           >
-            <img src={iconob3} alt="coding icon" />
+            <img src={codeIcon} alt="coding icon" />
             <h2>VOLUMEN III</h2>
           </div>
         </div>
