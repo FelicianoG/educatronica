@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const HomeStyles = styled.div`
+export const HomeStylesWrapper = styled.div`
   .main-logo {
     width: 80%;
     max-width: 1500px;

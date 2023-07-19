@@ -1,18 +1,18 @@
 import "../../App.css";
-import iconob1 from "../../images/icono1.svg";
-import iconob2 from "../../images/icono2.svg";
-import iconob3 from "../../images/icono3.svg";
+import iconob1 from "../../images/icono_construccion.svg";
+import iconob2 from "../../images/icono_conexion.svg";
+import iconob3 from "../../images/icono_programacion.svg";
 import logoMain from "../../images/logoMain.svg";
 import logoDGIDT from "../../images/logoDGIDT.png";
 import logoSEC from "../../images/logoSEC.png";
 import logoSONORA from "../../images/logoSONORA.png";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useRef } from "react";
-import { HomeStyles } from "./styles";
+import { HomeStylesWrapper } from "./styles";
 
 const PUBLIC_URL = process.env.PUBLIC_URL;
 
-function App() {
+export default function Home() {
   const programa = useRef(null);
   const navigate = useNavigate();
   useEffect(() => {
@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <HomeStyles className="app">
+    <HomeStylesWrapper className="app">
       <main
         onClick={(e) => {
           e.preventDefault();
@@ -101,8 +101,6 @@ function App() {
           </div>
         </footer>
       </section>
-    </HomeStyles>
+    </HomeStylesWrapper>
   );
 }
-
-export default App;

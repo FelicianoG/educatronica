@@ -1,143 +1,32 @@
-import "./volumen.css";
-import { useState, useLayoutEffect, useContext, Suspense } from "react";
+import { useState, useLayoutEffect, Suspense } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import contextStore from "../context/store";
-import Modal from "../components/Modal";
-import icono1 from "../images/icono_material-01.svg";
-import icono2 from "../images/icono_material-02.svg";
-import icono3 from "../images/icono_material-03.svg";
-import icono4 from "../images/icono_material-04.svg";
-import icono5 from "../images/icono_material-05.svg";
+import { useVolSections } from "../../hooks/useVolSections";
+import Modal from "../../components/Modal";
+import icono1 from "../../images/icono_01_gears.svg";
+import icono2 from "../../images/icono_02_toolbox.svg";
+import icono3 from "../../images/icono_03_book.svg";
+import icono4 from "../../images/icono_04_form.svg";
+import icono5 from "../../images/icono_05_graph.svg";
+import { VolumenStylesWrapper } from "./styles";
 
 export default function Volumen() {
   const navigate = useNavigate();
   const params = useParams();
-  const context = useContext(contextStore);
+  const volSections = useVolSections();
+
+  const [portal, setPortal] = useState(false);
+  const [selectedSection, setSelectedSection] = useState("");
+  const [volumen, setVolumen] = useState(volSections[params.id - 1]);
+  const [id, setId] = useState(parseFloat(params.id));
 
   if (!params.id || params.id < 1 || params.id > 3) {
     params.id = 1;
   }
   useLayoutEffect(() => window.scrollTo(0, 0), []);
 
-  const [portal, setPortal] = useState(false);
   function handleClosePortal() {
     setPortal(false);
   }
-
-  const [selectedSection, setSelectedSection] = useState("");
-
-  const volumenes = [
-    {
-      kit: {
-        titulo: "Kit de educatronica",
-        mensaje: ["Haz click aquí para descargar el kit de Educatrónica"],
-        link: context.volumeOneURLS.kit,
-      },
-      instalacion: {
-        titulo: "Instalación y configuración",
-        mensaje: ["Haz click aquí para descargar el manual de instalación y configuración"],
-        link: context.volumeOneURLS.instalacion,
-      },
-      libro: {
-        titulo: "Libro de trabajo",
-        mensaje: ["Haz click aquí para descargar el libro de trabajo"],
-        link: context.volumeOneURLS.nav,
-        url: context.volumeOneURLS.libroDescarga,
-      },
-      evaluacion: {
-        titulo: "Evaluación diagnóstica",
-        mensaje: ["Haz click aquí para descargar el manual de evaluación diagnóstica"],
-        link: context.volumeOneURLS.evaluacion,
-      },
-      nano: {
-        titulo: "Recursos educativos con Arduino NANO",
-        mensaje: ["Nota: El soporte para Arduino Nano cesará próximamente."],
-        link: context.volumeOneURLS.nano,
-      },
-      bgcolor: context.bgColors.one,
-      color: "green",
-      nextColor: "hoverorange",
-      prevColor: "hoverblue",
-      titulo: "VOLUMEN I",
-      anterior: "VOLUMEN III",
-      siguiente: "VOLUMEN II",
-      grado: "1o",
-    },
-    {
-      kit: {
-        titulo: "Kit de educatronica",
-        mensaje: ["Haz click aquí para descargar el kit de Educatrónica"],
-        link: context.volumeTwoURLS.kit,
-      },
-      instalacion: {
-        titulo: "Instalación y configuración",
-        mensaje: ["Haz click aquí para descargar el manual de instalación y configuración"],
-        link: context.volumeTwoURLS.instalacion,
-      },
-      libro: {
-        titulo: "Libro de trabajo",
-        mensaje: ["Haz click aquí para descargar el libro de trabajo"],
-        link: context.volumeTwoURLS.nav,
-        url: context.volumeTwoURLS.libroDescarga,
-      },
-      evaluacion: {
-        titulo: "Evaluación diagnóstica",
-        mensaje: ["Haz click aquí para descargar el manual de evaluación diagnóstica"],
-        link: context.volumeTwoURLS.evaluacion,
-      },
-      nano: {
-        titulo: "Recursos educativos con Arduino NANO",
-        mensaje: ["Nota: El soporte para Arduino Nano cesará próximamente."],
-        link: context.volumeOneURLS.nano,
-      },
-      bgcolor: context.bgColors.two,
-      color: "orange",
-      nextColor: "hoverblue",
-      prevColor: "hovergreen",
-      titulo: "VOLUMEN II",
-      anterior: "VOLUMEN I",
-      siguiente: "VOLUMEN III",
-      grado: "2o",
-    },
-    {
-      kit: {
-        titulo: "Kit de educatronica",
-        mensaje: ["Haz click aquí para descargar el kit de Educatrónica"],
-        link: context.volumeThreeURLS.kit,
-      },
-      instalacion: {
-        titulo: "Instalación y configuración",
-        mensaje: ["Haz click aquí para descargar el manual de instalación y configuración"],
-        link: context.volumeThreeURLS.instalacion,
-      },
-      libro: {
-        titulo: "Libro de trabajo",
-        mensaje: ["Haz click aquí para descargar el libro de trabajo"],
-        link: context.volumeThreeURLS.nav,
-        url: context.volumeThreeURLS.libroDescarga,
-      },
-      evaluacion: {
-        titulo: "Evaluación diagnóstica",
-        mensaje: ["Haz click aquí para descargar el manual de evaluación diagnóstica"],
-        link: context.volumeThreeURLS.evaluacion,
-      },
-      nano: {
-        titulo: "Recursos educativos con Arduino NANO",
-        mensaje: ["Nota: El soporte para Arduino Nano cesará próximamente."],
-        link: context.volumeOneURLS.nano,
-      },
-      bgcolor: context.bgColors.three,
-      color: "blue",
-      nextColor: "hovergreen",
-      prevColor: "hoverorange",
-      titulo: "VOLUMEN III",
-      anterior: "VOLUMEN II",
-      siguiente: "VOLUMEN I",
-      grado: "3o",
-    },
-  ];
-  const [volumen, setVolumen] = useState(volumenes[params.id - 1]);
-  const [id, setId] = useState(parseFloat(params.id));
 
   function handleNavigate(id, direction) {
     id = parseFloat(id);
@@ -154,21 +43,22 @@ export default function Volumen() {
     }
     navigate(`/volumenes/${nextId}`);
     setId(nextId);
-    setVolumen(volumenes[nextId - 1]);
+    setVolumen(volSections[nextId - 1]);
   }
+
   function handlePortal(target) {
     setSelectedSection(target);
     setPortal(true);
   }
 
   return (
-    <div className="App">
+    <VolumenStylesWrapper className="App">
       <main id="volume-container" className={volumen.color}>
         <h3>{volumen.grado} Grado - Educación Secundaria</h3>
         <div className="title-container">
           <div className="alt-nav">
             <div
-              className={`alt-nav-sides ${volumenes[id - 1].prevColor}`}
+              className={`alt-nav-sides ${volSections[id - 1].prevColor}`}
               onClick={() => {
                 handleNavigate(id, "back");
               }}
@@ -176,7 +66,7 @@ export default function Volumen() {
               {"<"}
             </div>
             <div
-              className={`alt-nav-sides ${volumenes[id - 1].nextColor}`}
+              className={`alt-nav-sides ${volSections[id - 1].nextColor}`}
               onClick={() => {
                 handleNavigate(id, "forward");
               }}
@@ -185,7 +75,7 @@ export default function Volumen() {
             </div>
           </div>
           <h1
-            className={`side-nav ${volumenes[id - 1].prevColor}`}
+            className={`side-nav ${volSections[id - 1].prevColor}`}
             onClick={() => {
               handleNavigate(id, "back");
             }}
@@ -194,7 +84,7 @@ export default function Volumen() {
           </h1>
           <h1>{volumen.titulo}</h1>
           <h1
-            className={`side-nav ${volumenes[id - 1].nextColor}`}
+            className={`side-nav ${volSections[id - 1].nextColor}`}
             onClick={() => {
               handleNavigate(id, "forward");
             }}
@@ -285,7 +175,7 @@ export default function Volumen() {
           <button onClick={() => navigate("/")}>Volver al inicio</button>
         </footer>
       </main>
-      {portal && <Modal section={selectedSection} content={volumenes[id - 1]} handleClose={handleClosePortal} />}
-    </div>
+      {portal && <Modal section={selectedSection} content={volSections[id - 1]} handleClose={handleClosePortal} />}
+    </VolumenStylesWrapper>
   );
 }

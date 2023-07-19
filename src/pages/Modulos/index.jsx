@@ -1,76 +1,26 @@
-import React from "react";
-import "./modulePage.css";
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import contextStore from "../../context/store";
 import Module from "./components/Module";
 import VideoModal from "../../components/VideoModal";
+import { ModulosStylesWrapper } from "./styles";
+import { useVolumes } from "../../hooks/useVolumes";
 
 export default function ModulePage({ inicial }) {
   const navigate = useNavigate();
   const params = useParams();
-  const context = useContext(contextStore);
+  const volumenes = useVolumes();
 
-  const moduleVolumeOne = context.moduleVolumeOne;
-  const moduleVolumeTwo = context.moduleVolumeTwo;
-  const moduleVolumeThree = context.moduleVolumeThree;
+  const [portal, setPortal] = useState(false);
+  const [videoURL, setVideoURL] = useState("");
+  const [selectedSection] = useState("");
+  const [volumen, setVolumen] = useState(volumenes[params.id - 1]);
+  const [id, setId] = useState(parseFloat(params.id));
+
+  useEffect(() => window.scrollTo(0, 0), []);
 
   if (!params.id || params.id < 1 || params.id > 3) {
     params.id = 1;
   }
-
-  useEffect(() => window.scrollTo(0, 0), []);
-
-  const [portal, setPortal] = useState(false);
-  const [videoURL, setVideoURL] = useState("");
-  function handleClosePortal() {
-    setPortal(false);
-  }
-
-  const [selectedSection] = useState("");
-
-  const volumenes = [
-    {
-      modulo: moduleVolumeOne,
-      kit: {
-        titulo: "Kit de educatronica",
-        mensaje: "Haz click aqui para descargar el kit de educatronica",
-        link: context.semaforoPDFURL,
-      },
-      bgcolor: context.bgColors.one,
-      color: "green",
-      nextColor: "hoverorange",
-      prevColor: "hoverblue",
-      titulo: "VOLUMEN I",
-      anterior: "VOLUMEN III",
-      siguiente: "VOLUMEN II",
-      grado: "1o",
-    },
-    {
-      modulo: moduleVolumeTwo,
-      bgcolor: context.bgColors.two,
-      color: "orange",
-      nextColor: "hoverblue",
-      prevColor: "hovergreen",
-      titulo: "VOLUMEN II",
-      anterior: "VOLUMEN I",
-      siguiente: "VOLUMEN III",
-      grado: "2o",
-    },
-    {
-      modulo: moduleVolumeThree,
-      bgcolor: context.bgColors.three,
-      color: "blue",
-      nextColor: "hovergreen",
-      prevColor: "hoverorange",
-      titulo: "VOLUMEN III",
-      anterior: "VOLUMEN II",
-      siguiente: "VOLUMEN I",
-      grado: "3o",
-    },
-  ];
-  const [volumen, setVolumen] = useState(volumenes[params.id - 1]);
-  const [id, setId] = useState(parseFloat(params.id));
 
   function handleNavigate(id, direction) {
     id = parseFloat(id);
@@ -91,7 +41,7 @@ export default function ModulePage({ inicial }) {
   }
 
   return (
-    <div className="App">
+    <ModulosStylesWrapper className="App">
       <main id="module-container" className={volumen.color}>
         <div className="module-title-container">
           <div style={{ padding: "10px" }} className="module-alt-nav">
@@ -133,21 +83,9 @@ export default function ModulePage({ inicial }) {
           </h1>
         </div>
 
-        <Module
-          info={volumenes[id - 1].modulo[0]}
-          setPortal={setPortal}
-          setVideoURL={setVideoURL}
-        />
-        <Module
-          info={volumenes[id - 1].modulo[1]}
-          setPortal={setPortal}
-          setVideoURL={setVideoURL}
-        />
-        <Module
-          info={volumenes[id - 1].modulo[2]}
-          setPortal={setPortal}
-          setVideoURL={setVideoURL}
-        />
+        <Module info={volumenes[id - 1].modulo[0]} setPortal={setPortal} setVideoURL={setVideoURL} />
+        <Module info={volumenes[id - 1].modulo[1]} setPortal={setPortal} setVideoURL={setVideoURL} />
+        <Module info={volumenes[id - 1].modulo[2]} setPortal={setPortal} setVideoURL={setVideoURL} />
 
         <svg
           className="module-logo-bg"
@@ -167,16 +105,15 @@ export default function ModulePage({ inicial }) {
           <button onClick={() => navigate(`/volumenes/${id}`)}>Volver</button>
         </footer>
       </main>
-      {/* {portal && <Modal section={selectedSection} content={volumenes[id-1]} color={volumenes[id-1].bgcolor} handleClose={handleClosePortal}/>} */}
       {portal && (
         <VideoModal
           videoURL={videoURL}
           section={selectedSection}
           content={volumenes[id - 1]}
           color={volumenes[id - 1].bgcolor}
-          handleClose={handleClosePortal}
+          handleClose={() => setPortal(false)}
         />
       )}
-    </div>
+    </ModulosStylesWrapper>
   );
 }
